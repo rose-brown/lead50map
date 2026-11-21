@@ -1,13 +1,13 @@
 {
   "meta": {
     "asOf": "2026-10",
-    "datasetStatus": "districts_26_889",
-    "totalCount": 889,
+    "datasetStatus": "districts_26_938",
+    "totalCount": 938,
     "seoulCount": 505,
-    "gyeonggiCount": 384,
-    "overlapCount": 75,
-    "coordsCount": 887,
-    "enrichedCount": 887,
+    "gyeonggiCount": 433,
+    "overlapCount": 76,
+    "coordsCount": 936,
+    "enrichedCount": 936,
     "districts": [
       {
         "region": "서울",
@@ -117,7 +117,7 @@
       {
         "region": "경기",
         "district": "안양시 만안구",
-        "count": 1
+        "count": 50
       },
       {
         "region": "경기",
@@ -147,7 +147,7 @@
       "lng": 127.0568213,
       "verified": true
     },
-    "enrichedAt": "2026-11-21T12:20:56Z"
+    "enrichedAt": "2026-11-21T12:51:39Z"
   },
   "apartments": [
     {
@@ -2153,13 +2153,14 @@
       "location": "안양시 만안구 안양동",
       "dong": "안양동",
       "sources": [
-        "gyeonggi_top50"
+        "gyeonggi_top50",
+        "district_top50"
       ],
       "lead50Rank": null,
       "gyeonggiTopRank": 8,
-      "districtRank": null,
-      "kbComplexId": null,
-      "marketCapTrillion": 4.39,
+      "districtRank": 1,
+      "kbComplexId": 31631,
+      "marketCapTrillion": 4.3906,
       "pricePerPyeongMan": 3507,
       "households": 4243,
       "builtYM": "2016-11",
@@ -3937,6 +3938,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-삼성래미안",
+      "name": "삼성래미안",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 2,
+      "kbComplexId": 4011,
+      "marketCapTrillion": 1.7902,
+      "pricePerPyeongMan": 2960,
+      "households": 1998,
+      "builtYM": "2002-01",
+      "builtYear": 2002,
+      "builtText": "02년 01월 (25년차)",
+      "lat": 37.4012413,
+      "lng": 126.9238416,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.65,
+      "commute": {
+        "minutes": 60,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 29899,
+        "fareWon": 1950,
+        "summary": "SUBWAY → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%82%BC%EC%84%B1,37.401241,126.923842/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-성산동-성산시영",
       "name": "성산시영",
       "region": "서울",
@@ -4369,6 +4406,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-석수동-석수LG빌리지",
+      "name": "석수LG빌리지",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 3,
+      "kbComplexId": 4045,
+      "marketCapTrillion": 1.4257,
+      "pricePerPyeongMan": 2610,
+      "households": 1872,
+      "builtYM": "2001-05",
+      "builtYear": 2001,
+      "builtText": "01년 05월 (26년차)",
+      "lat": 37.4269399,
+      "lng": 126.9014931,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.37,
+      "commute": {
+        "minutes": 63,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 21010,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98LG%EB%B9%8C%EB%A6%AC%EC%A7%80,37.426940,126.901493/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-여수동-센트럴타운",
       "name": "센트럴타운",
       "region": "경기",
@@ -4616,6 +4689,42 @@
         "fareWon": null,
         "summary": "SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%A7%88%ED%8F%AC%EB%8D%94%ED%81%B4%EB%9E%98%EC%8B%9C,37.556412,126.949363/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-석수이-편한세상",
+      "name": "석수이-편한세상",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 4,
+      "kbComplexId": 4044,
+      "marketCapTrillion": 1.3357,
+      "pricePerPyeongMan": 2207,
+      "households": 1908,
+      "builtYM": "2002-05",
+      "builtYear": 2002,
+      "builtText": "02년 05월 (25년차)",
+      "lat": 37.4158589,
+      "lng": 126.9150914,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.13,
+      "commute": {
+        "minutes": 60,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 22338,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%9D%B4-%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81,37.415859,126.915091/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -5089,6 +5198,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-주공뜨란채",
+      "name": "주공뜨란채",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 5,
+      "kbComplexId": 13032,
+      "marketCapTrillion": 0.9357,
+      "pricePerPyeongMan": 3089,
+      "households": 1093,
+      "builtYM": "2004-11",
+      "builtYear": 2004,
+      "builtText": "04년 11월 (23년차)",
+      "lat": 37.4009566,
+      "lng": 126.9253835,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.57,
+      "commute": {
+        "minutes": 63,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 30094,
+        "fareWon": 1950,
+        "summary": "SUBWAY → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5%EB%9C%A8%EB%9E%80%EC%B1%84,37.400957,126.925384/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-학암동-플로리체위례",
       "name": "플로리체위례",
       "region": "경기",
@@ -5480,6 +5625,42 @@
         "fareWon": 1750,
         "summary": "BUS → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%84%ED%8A%BC%EB%B9%8C,37.429716,127.151706/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-안양씨엘포레자이",
+      "name": "안양씨엘포레자이",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 6,
+      "kbComplexId": 41868,
+      "marketCapTrillion": 0.88,
+      "pricePerPyeongMan": 2668,
+      "households": 1209,
+      "builtYM": "2021-02",
+      "builtYear": 2021,
+      "builtText": "21년 02월 (6년차)",
+      "lat": 37.3880751,
+      "lng": 126.9231729,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.75,
+      "commute": {
+        "minutes": 72,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 25473,
+        "fareWon": null,
+        "summary": "BUS → SUBWAY → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%94%A8%EC%97%98%ED%8F%AC%EB%A0%88%EC%9E%90%EC%9D%B4,37.388075,126.923173/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -6133,6 +6314,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-박달동-한라비발디",
+      "name": "한라비발디",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 7,
+      "kbComplexId": 4042,
+      "marketCapTrillion": 0.8089,
+      "pricePerPyeongMan": 1713,
+      "households": 1385,
+      "builtYM": "2000-09",
+      "builtYear": 2000,
+      "builtText": "00년 09월 (27년차)",
+      "lat": 37.4024534,
+      "lng": 126.9010756,
+      "coordsVerified": true,
+      "straightDistanceKm": 18.03,
+      "commute": {
+        "minutes": 69,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24430,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EB%9D%BC%EB%B9%84%EB%B0%9C%EB%94%94,37.402453,126.901076/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-구의동-e편한세상광진그랜드파크",
       "name": "e편한세상광진그랜드파크",
       "region": "서울",
@@ -6488,6 +6705,42 @@
         "fareWon": 1650,
         "summary": "SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B3%B4%EB%9D%BC%EB%A7%A4SK%EB%B7%B0,37.504052,126.917802/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-석수아이파크",
+      "name": "석수아이파크",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 8,
+      "kbComplexId": 21437,
+      "marketCapTrillion": 0.767,
+      "pricePerPyeongMan": 1968,
+      "households": 1134,
+      "builtYM": "2009-09",
+      "builtYear": 2009,
+      "builtText": "09년 09월 (18년차)",
+      "lat": 37.4064588,
+      "lng": 126.9025963,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.64,
+      "commute": {
+        "minutes": 66,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24063,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC,37.406459,126.902596/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -7064,6 +7317,42 @@
         "fareWon": 1500,
         "summary": "BUS → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9C%EC%B4%88%EA%B7%B8%EB%9E%91%EC%9E%90%EC%9D%B4,37.488247,127.026538/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-아르테자이",
+      "name": "아르테자이",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 9,
+      "kbComplexId": 47693,
+      "marketCapTrillion": 0.7589,
+      "pricePerPyeongMan": 2958,
+      "households": 962,
+      "builtYM": "2023-04",
+      "builtYear": 2023,
+      "builtText": "23년 04월 (4년차)",
+      "lat": 37.415537,
+      "lng": 126.9186783,
+      "coordsVerified": true,
+      "straightDistanceKm": 15.9,
+      "commute": {
+        "minutes": 60,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 22753,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%84%EB%A5%B4%ED%85%8C%EC%9E%90%EC%9D%B4,37.415537,126.918678/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -7717,6 +8006,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-석수동-현대",
+      "name": "현대",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 10,
+      "kbComplexId": 4043,
+      "marketCapTrillion": 0.7485,
+      "pricePerPyeongMan": 2074,
+      "households": 1088,
+      "builtYM": "1999-11",
+      "builtYear": 1999,
+      "builtText": "99년 11월 (28년차)",
+      "lat": 37.4165948,
+      "lng": 126.9087069,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.52,
+      "commute": {
+        "minutes": 54,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 21346,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%98%84%EB%8C%80,37.416595,126.908707/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-호계동-호계2차현대홈타운",
       "name": "호계2차현대홈타운",
       "region": "경기",
@@ -8108,6 +8433,42 @@
         "fareWon": 1950,
         "summary": "BUS → SUBWAY → SUBWAY",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%83%9B%EB%B3%84%28%ED%95%9C%EC%96%912%2C3%EB%8B%A8%EC%A7%80%29,37.395165,126.952315/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-석수두산위브",
+      "name": "석수두산위브",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 11,
+      "kbComplexId": 22211,
+      "marketCapTrillion": 0.7092,
+      "pricePerPyeongMan": 2887,
+      "households": 742,
+      "builtYM": "2010-09",
+      "builtYear": 2010,
+      "builtText": "10년 09월 (17년차)",
+      "lat": 37.4335526,
+      "lng": 126.9005918,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.05,
+      "commute": {
+        "minutes": 53,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 19197,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C,37.433553,126.900592/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -8648,6 +9009,42 @@
         "fareWon": 4700,
         "summary": "SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%B1%EB%B3%B5%EC%97%AD%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%ED%81%B4%EB%9D%BC%EC%8B%9C%EC%97%98,37.314226,127.073779/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-성원1차",
+      "name": "성원1차",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 12,
+      "kbComplexId": 3995,
+      "marketCapTrillion": 0.4978,
+      "pricePerPyeongMan": 1683,
+      "households": 934,
+      "builtYM": "1995-11",
+      "builtYear": 1995,
+      "builtText": "95년 11월 (32년차)",
+      "lat": 37.3952706,
+      "lng": 126.9150864,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.66,
+      "commute": {
+        "minutes": 68,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 30752,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%B1%EC%9B%901%EC%B0%A8,37.395271,126.915086/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -9301,6 +9698,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-석수동-석수경남아너스빌",
+      "name": "석수경남아너스빌",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 13,
+      "kbComplexId": 4047,
+      "marketCapTrillion": 0.4744,
+      "pricePerPyeongMan": 2140,
+      "households": 704,
+      "builtYM": "2002-10",
+      "builtYear": 2002,
+      "builtText": "02년 10월 (25년차)",
+      "lat": 37.4183409,
+      "lng": 126.9109822,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.24,
+      "commute": {
+        "minutes": 65,
+        "transfers": 4,
+        "routeType": "SUBWAY",
+        "distanceMeters": 27936,
+        "fareWon": 1950,
+        "summary": "SUBWAY → SUBWAY → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EA%B2%BD%EB%82%A8%EC%95%84%EB%84%88%EC%8A%A4%EB%B9%8C,37.418341,126.910982/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-풍덕천동-수지현대.",
       "name": "수지현대.",
       "region": "경기",
@@ -9836,6 +10269,42 @@
         "fareWon": 1650,
         "summary": "SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%83%81%EB%8F%84%EC%97%AD%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%ED%8C%8C%ED%81%AC%EC%97%98,37.501446,126.945818/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-석수역푸르지오",
+      "name": "석수역푸르지오",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 14,
+      "kbComplexId": 22210,
+      "marketCapTrillion": 0.4601,
+      "pricePerPyeongMan": 2782,
+      "households": 538,
+      "builtYM": "2009-06",
+      "builtYear": 2009,
+      "builtText": "09년 06월 (18년차)",
+      "lat": 37.4336933,
+      "lng": 126.9041338,
+      "coordsVerified": true,
+      "straightDistanceKm": 15.77,
+      "commute": {
+        "minutes": 46,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 19079,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%97%AD%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4,37.433693,126.904134/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -10597,6 +11066,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-박달동-우성",
+      "name": "우성",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 15,
+      "kbComplexId": 4032,
+      "marketCapTrillion": 0.4517,
+      "pricePerPyeongMan": 1509,
+      "households": 1020,
+      "builtYM": "1990-05",
+      "builtYear": 1990,
+      "builtText": "90년 05월 (37년차)",
+      "lat": 37.3998422,
+      "lng": 126.9077379,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.78,
+      "commute": {
+        "minutes": 72,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24464,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%9A%B0%EC%84%B1,37.399842,126.907738/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-하안동-주공5단지",
       "name": "주공5단지",
       "region": "경기",
@@ -10952,6 +11457,42 @@
         "fareWon": 3200,
         "summary": "SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%9E%98%EB%AF%B8%EC%95%88%EC%8A%88%EB%A5%B4%28343%7E348%EB%8F%99%29,37.424754,126.995133/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-럭키",
+      "name": "럭키",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 16,
+      "kbComplexId": 4054,
+      "marketCapTrillion": 0.3811,
+      "pricePerPyeongMan": 1730,
+      "households": 735,
+      "builtYM": "1987-05",
+      "builtYear": 1987,
+      "builtText": "87년 05월 (40년차)",
+      "lat": 37.409482,
+      "lng": 126.9085586,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.02,
+      "commute": {
+        "minutes": 65,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 22256,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%9F%AD%ED%82%A4,37.409482,126.908559/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -11564,6 +12105,42 @@
         "fareWon": 1650,
         "summary": "SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%91%90%EC%82%B0,37.444818,127.148048/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-두산위브더아티움",
+      "name": "두산위브더아티움",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 17,
+      "kbComplexId": 47141,
+      "marketCapTrillion": 0.3801,
+      "pricePerPyeongMan": 2821,
+      "households": 513,
+      "builtYM": "2023-01",
+      "builtYear": 2023,
+      "builtText": "23년 01월 (4년차)",
+      "lat": 37.4124724,
+      "lng": 126.9157515,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.32,
+      "commute": {
+        "minutes": 63,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 22914,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EB%8D%94%EC%95%84%ED%8B%B0%EC%9B%80,37.412472,126.915752/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -12397,6 +12974,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-석수동-석수코오롱하늘채",
+      "name": "석수코오롱하늘채",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 18,
+      "kbComplexId": 16126,
+      "marketCapTrillion": 0.3459,
+      "pricePerPyeongMan": 1832,
+      "households": 545,
+      "builtYM": "2010-02",
+      "builtYear": 2010,
+      "builtText": "10년 02월 (17년차)",
+      "lat": 37.409169,
+      "lng": 126.8982633,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.75,
+      "commute": {
+        "minutes": 70,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 25294,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84,37.409169,126.898263/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-거여동-송파시그니처롯데캐슬",
       "name": "송파시그니처롯데캐슬",
       "region": "서울",
@@ -13040,6 +13653,42 @@
         "fareWon": 1650,
         "summary": "SUBWAY → SUBWAY → SUBWAY",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%8B%A0%EB%8F%99%EC%95%84,37.553796,127.151907/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-안양역한양수자인리버파크",
+      "name": "안양역한양수자인리버파크",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 19,
+      "kbComplexId": 34547,
+      "marketCapTrillion": 0.3458,
+      "pricePerPyeongMan": 3201,
+      "households": 396,
+      "builtYM": "2019-01",
+      "builtYear": 2019,
+      "builtText": "19년 01월 (8년차)",
+      "lat": 37.4039771,
+      "lng": 126.9215856,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.57,
+      "commute": {
+        "minutes": 63,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 30031,
+        "fareWon": 1950,
+        "summary": "SUBWAY → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%97%AD%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EB%A6%AC%EB%B2%84%ED%8C%8C%ED%81%AC,37.403977,126.921586/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -13765,6 +14414,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-석수동-주공그린빌(구룡)",
+      "name": "주공그린빌(구룡)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 20,
+      "kbComplexId": 13721,
+      "marketCapTrillion": 0.3386,
+      "pricePerPyeongMan": 2206,
+      "households": 541,
+      "builtYM": "2003-09",
+      "builtYear": 2003,
+      "builtText": "03년 09월 (24년차)",
+      "lat": 37.4207767,
+      "lng": 126.9103151,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.12,
+      "commute": {
+        "minutes": 58,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 21850,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5%EA%B7%B8%EB%A6%B0%EB%B9%8C%28%EA%B5%AC%EB%A3%A1%29,37.420777,126.910315/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-옥수동-한남하이츠",
       "name": "한남하이츠",
       "region": "서울",
@@ -13940,6 +14625,42 @@
         "fareWon": 1750,
         "summary": "BUS → SUBWAY → SUBWAY",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B0%95%EB%B3%80%EB%9E%98%EB%AF%B8%EC%95%88,37.529264,126.908479/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-박달동-대림한숲타운",
+      "name": "대림한숲타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 21,
+      "kbComplexId": 4040,
+      "marketCapTrillion": 0.3218,
+      "pricePerPyeongMan": 1442,
+      "households": 728,
+      "builtYM": "2001-08",
+      "builtYear": 2001,
+      "builtText": "01년 08월 (26년차)",
+      "lat": 37.4048597,
+      "lng": 126.8913907,
+      "coordsVerified": true,
+      "straightDistanceKm": 18.53,
+      "commute": {
+        "minutes": 74,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 26316,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%8C%80%EB%A6%BC%ED%95%9C%EC%88%B2%ED%83%80%EC%9A%B4,37.404860,126.891391/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -14593,6 +15314,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-박달동-금호타운",
+      "name": "금호타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 22,
+      "kbComplexId": 4035,
+      "marketCapTrillion": 0.3048,
+      "pricePerPyeongMan": 1362,
+      "households": 752,
+      "builtYM": "1996-10",
+      "builtYear": 1996,
+      "builtText": "96년 10월 (31년차)",
+      "lat": 37.3992461,
+      "lng": 126.9003661,
+      "coordsVerified": true,
+      "straightDistanceKm": 18.31,
+      "commute": {
+        "minutes": 73,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24504,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B8%88%ED%98%B8%ED%83%80%EC%9A%B4,37.399246,126.900366/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-구미동-까치마을(롯데,선경)",
       "name": "까치마을(롯데,선경)",
       "region": "경기",
@@ -15236,6 +15993,42 @@
         "fareWon": 1650,
         "summary": "SUBWAY → SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B3%B5%EB%8D%95%EC%82%BC%EC%84%B1%281%EC%B0%A8%29,37.546373,126.951292/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-관악산현대홈타운",
+      "name": "관악산현대홈타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 23,
+      "kbComplexId": 4046,
+      "marketCapTrillion": 0.275,
+      "pricePerPyeongMan": 2211,
+      "households": 376,
+      "builtYM": "2001-09",
+      "builtYear": 2001,
+      "builtText": "01년 09월 (26년차)",
+      "lat": 37.4207601,
+      "lng": 126.9121678,
+      "coordsVerified": true,
+      "straightDistanceKm": 15.99,
+      "commute": {
+        "minutes": 60,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 21993,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B4%80%EC%95%85%EC%82%B0%ED%98%84%EB%8C%80%ED%99%88%ED%83%80%EC%9A%B4,37.420760,126.912168/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -16069,6 +16862,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-수리산성원상떼빌1차",
+      "name": "수리산성원상떼빌1차",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 24,
+      "kbComplexId": 15851,
+      "marketCapTrillion": 0.2652,
+      "pricePerPyeongMan": 1798,
+      "households": 469,
+      "builtYM": "2006-12",
+      "builtYear": 2006,
+      "builtText": "06년 12월 (21년차)",
+      "lat": 37.3941222,
+      "lng": 126.9169781,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.64,
+      "commute": {
+        "minutes": 69,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 31074,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C1%EC%B0%A8,37.394122,126.916978/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-신흥동-신동아파라디움",
       "name": "신동아파라디움",
       "region": "경기",
@@ -16825,6 +17654,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-프라자",
+      "name": "프라자",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 25,
+      "kbComplexId": 4000,
+      "marketCapTrillion": 0.2555,
+      "pricePerPyeongMan": 1573,
+      "households": 637,
+      "builtYM": "1987-04",
+      "builtYear": 1987,
+      "builtText": "87년 04월 (40년차)",
+      "lat": 37.3937152,
+      "lng": 126.9123688,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.95,
+      "commute": {
+        "minutes": 69,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 31143,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%94%84%EB%9D%BC%EC%9E%90,37.393715,126.912369/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-평촌동-향촌(현대5차)",
       "name": "향촌(현대5차)",
       "region": "경기",
@@ -17401,6 +18266,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-안양대우",
+      "name": "안양대우",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 26,
+      "kbComplexId": 3997,
+      "marketCapTrillion": 0.235,
+      "pricePerPyeongMan": 1624,
+      "households": 498,
+      "builtYM": "1991-09",
+      "builtYear": 1991,
+      "builtText": "91년 09월 (36년차)",
+      "lat": 37.4058431,
+      "lng": 126.9229876,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.34,
+      "commute": {
+        "minutes": 68,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 30712,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%8C%80%EC%9A%B0,37.405843,126.922988/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-정자동-한솔마을(4단지)",
       "name": "한솔마을(4단지)",
       "region": "경기",
@@ -17936,6 +18837,42 @@
         "fareWon": 1650,
         "summary": "BUS → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%B1%EB%82%A8%EB%8F%99%ED%98%84%EB%8C%80,37.429392,127.139939/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-수리산성원상떼빌2차",
+      "name": "수리산성원상떼빌2차",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 27,
+      "kbComplexId": 14483,
+      "marketCapTrillion": 0.2278,
+      "pricePerPyeongMan": 1686,
+      "households": 436,
+      "builtYM": "2007-02",
+      "builtYear": 2007,
+      "builtText": "07년 02월 (20년차)",
+      "lat": 37.3927604,
+      "lng": 126.9177159,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.7,
+      "commute": {
+        "minutes": 72,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 31213,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C2%EC%B0%A8,37.392760,126.917716/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -18769,6 +19706,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-박달동-한양수자인에듀파크",
+      "name": "한양수자인에듀파크",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 28,
+      "kbComplexId": 31133,
+      "marketCapTrillion": 0.2263,
+      "pricePerPyeongMan": 2174,
+      "households": 348,
+      "builtYM": "2017-11",
+      "builtYear": 2017,
+      "builtText": "17년 11월 (10년차)",
+      "lat": 37.4031451,
+      "lng": 126.9039378,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.79,
+      "commute": {
+        "minutes": 67,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24334,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%97%90%EB%93%80%ED%8C%8C%ED%81%AC,37.403145,126.903938/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-여의도동-공작",
       "name": "공작",
       "region": "서울",
@@ -19345,6 +20318,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-박달동-한신휴플러스타운(3차)",
+      "name": "한신휴플러스타운(3차)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 29,
+      "kbComplexId": 22920,
+      "marketCapTrillion": 0.226,
+      "pricePerPyeongMan": 1729,
+      "households": 392,
+      "builtYM": "2009-12",
+      "builtYear": 2009,
+      "builtText": "09년 12월 (18년차)",
+      "lat": 37.4049083,
+      "lng": 126.9061505,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.51,
+      "commute": {
+        "minutes": 68,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24372,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EC%8B%A0%ED%9C%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%ED%83%80%EC%9A%B4%283%EC%B0%A8%29,37.404908,126.906151/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-신대방동-현대",
       "name": "현대",
       "region": "서울",
@@ -19592,6 +20601,42 @@
         "fareWon": 1650,
         "summary": "BUS → SUBWAY",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%8F%99%EB%B6%80%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C,37.521114,126.965898/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-박달동-박달동한일유앤아이",
+      "name": "박달동한일유앤아이",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 30,
+      "kbComplexId": 13264,
+      "marketCapTrillion": 0.1917,
+      "pricePerPyeongMan": 1735,
+      "households": 375,
+      "builtYM": "2005-02",
+      "builtYear": 2005,
+      "builtText": "05년 02월 (22년차)",
+      "lat": 37.4026295,
+      "lng": 126.8972455,
+      "coordsVerified": true,
+      "straightDistanceKm": 18.28,
+      "commute": {
+        "minutes": 72,
+        "transfers": 2,
+        "routeType": "BUS",
+        "distanceMeters": 30232,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B0%95%EB%8B%AC%EB%8F%99%ED%95%9C%EC%9D%BC%EC%9C%A0%EC%95%A4%EC%95%84%EC%9D%B4,37.402630,126.897246/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -20317,6 +21362,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-수리산힐스테이트",
+      "name": "수리산힐스테이트",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 31,
+      "kbComplexId": 14049,
+      "marketCapTrillion": 0.1887,
+      "pricePerPyeongMan": 1495,
+      "households": 441,
+      "builtYM": "2006-10",
+      "builtYear": 2006,
+      "builtText": "06년 10월 (21년차)",
+      "lat": 37.3848337,
+      "lng": 126.9029754,
+      "coordsVerified": true,
+      "straightDistanceKm": 19.24,
+      "commute": {
+        "minutes": 80,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 32948,
+        "fareWon": 2150,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8,37.384834,126.902975/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-여의도동-은하.",
       "name": "은하.",
       "region": "서울",
@@ -20780,6 +21861,42 @@
         "fareWon": null,
         "summary": "BUS → SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%AA%A9%EB%A0%A8%28%EC%9A%B0%EC%84%B17%EB%8B%A8%EC%A7%80%29,37.384546,126.956324/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-삼성",
+      "name": "삼성",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 32,
+      "kbComplexId": 3998,
+      "marketCapTrillion": 0.1839,
+      "pricePerPyeongMan": 1588,
+      "households": 366,
+      "builtYM": "1994-12",
+      "builtYear": 1994,
+      "builtText": "94년 12월 (33년차)",
+      "lat": 37.4012413,
+      "lng": 126.9238416,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.65,
+      "commute": {
+        "minutes": 60,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 29899,
+        "fareWon": 1950,
+        "summary": "SUBWAY → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%82%BC%EC%84%B1,37.401241,126.923842/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -21829,6 +22946,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-석수동-힐스테이트석수",
+      "name": "힐스테이트석수",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 33,
+      "kbComplexId": 30123,
+      "marketCapTrillion": 0.1828,
+      "pricePerPyeongMan": 2348,
+      "households": 239,
+      "builtYM": "2015-07",
+      "builtYear": 2015,
+      "builtText": "15년 07월 (12년차)",
+      "lat": 37.4306546,
+      "lng": 126.9046574,
+      "coordsVerified": true,
+      "straightDistanceKm": 15.91,
+      "commute": {
+        "minutes": 54,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 19338,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EC%84%9D%EC%88%98,37.430655,126.904657/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-가락동-가락우성(1차)",
       "name": "가락우성(1차)",
       "region": "서울",
@@ -22225,6 +23378,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-박달동-벽산",
+      "name": "벽산",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 34,
+      "kbComplexId": 4034,
+      "marketCapTrillion": 0.175,
+      "pricePerPyeongMan": 1559,
+      "households": 386,
+      "builtYM": "1996-12",
+      "builtYear": 1996,
+      "builtText": "96년 12월 (31년차)",
+      "lat": 37.4033047,
+      "lng": 126.9063332,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.62,
+      "commute": {
+        "minutes": 65,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24215,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B2%BD%EC%82%B0,37.403305,126.906333/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-성산동-성산월드타운대림",
       "name": "성산월드타운대림",
       "region": "서울",
@@ -22436,6 +23625,42 @@
         "fareWon": 1550,
         "summary": "BUS → SUBWAY",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EC%84%9C%EC%9A%B8%EC%88%B2%EB%A6%AC%EB%B2%84,37.547902,127.027204/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-관악역이안",
+      "name": "관악역이안",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 35,
+      "kbComplexId": 22298,
+      "marketCapTrillion": 0.1679,
+      "pricePerPyeongMan": 1739,
+      "households": 271,
+      "builtYM": "2010-04",
+      "builtYear": 2010,
+      "builtText": "10년 04월 (17년차)",
+      "lat": 37.4233088,
+      "lng": 126.9083102,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.1,
+      "commute": {
+        "minutes": 58,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 21509,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B4%80%EC%95%85%EC%97%AD%EC%9D%B4%EC%95%88,37.423309,126.908310/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -23521,6 +24746,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-석수동-안양석수하우스토리",
+      "name": "안양석수하우스토리",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 36,
+      "kbComplexId": 22302,
+      "marketCapTrillion": 0.1676,
+      "pricePerPyeongMan": 2004,
+      "households": 274,
+      "builtYM": "2011-10",
+      "builtYear": 2011,
+      "builtText": "11년 10월 (16년차)",
+      "lat": 37.4260075,
+      "lng": 126.9039075,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.25,
+      "commute": {
+        "minutes": 63,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 21094,
+        "fareWon": 3200,
+        "summary": "BUS → BUS → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%84%9D%EC%88%98%ED%95%98%EC%9A%B0%EC%8A%A4%ED%86%A0%EB%A6%AC,37.426008,126.903908/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-자양동-자양10차현대홈타운",
       "name": "자양10차현대홈타운",
       "region": "서울",
@@ -23912,6 +25173,42 @@
         "fareWon": null,
         "summary": "SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%82%BC%EB%B6%80,37.559500,127.037189/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-석수2차e편한세상",
+      "name": "석수2차e편한세상",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 37,
+      "kbComplexId": 13941,
+      "marketCapTrillion": 0.1665,
+      "pricePerPyeongMan": 2315,
+      "households": 231,
+      "builtYM": "2006-01",
+      "builtYear": 2006,
+      "builtText": "06년 01월 (21년차)",
+      "lat": 37.4315557,
+      "lng": 126.9046936,
+      "coordsVerified": true,
+      "straightDistanceKm": 15.85,
+      "commute": {
+        "minutes": 54,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 19317,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%982%EC%B0%A8e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81,37.431556,126.904694/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -24416,6 +25713,42 @@
         "fareWon": 1650,
         "summary": "BUS → SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%8D%94%EC%83%B5%ED%8C%8C%ED%81%AC%ED%94%84%EB%A0%88%EC%8A%A4%ED%8B%B0%EC%A7%80,37.507927,126.916717/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-벽산",
+      "name": "벽산",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 38,
+      "kbComplexId": 4027,
+      "marketCapTrillion": 0.1663,
+      "pricePerPyeongMan": 1832,
+      "households": 275,
+      "builtYM": "1985-09",
+      "builtYear": 1985,
+      "builtText": "85년 09월 (42년차)",
+      "lat": 37.3963891,
+      "lng": 126.9222248,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.13,
+      "commute": {
+        "minutes": 74,
+        "transfers": 2,
+        "routeType": "SUBWAY",
+        "distanceMeters": 30590,
+        "fareWon": 1950,
+        "summary": "SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B2%BD%EC%82%B0,37.396389,126.922225/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -25321,6 +26654,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-수리산현대홈타운",
+      "name": "수리산현대홈타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 39,
+      "kbComplexId": 36259,
+      "marketCapTrillion": 0.1654,
+      "pricePerPyeongMan": 1321,
+      "households": 356,
+      "builtYM": "2001-11",
+      "builtYear": 2001,
+      "builtText": "01년 11월 (26년차)",
+      "lat": 37.3854116,
+      "lng": 126.9033835,
+      "coordsVerified": true,
+      "straightDistanceKm": 19.17,
+      "commute": {
+        "minutes": 79,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 32737,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%ED%98%84%EB%8C%80%ED%99%88%ED%83%80%EC%9A%B4,37.385412,126.903384/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-신길동-신길파크자이",
       "name": "신길파크자이",
       "region": "서울",
@@ -25892,6 +27261,42 @@
         "fareWon": 1650,
         "summary": "SUBWAY → SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A7%84%EC%A3%BC,37.517827,126.933619/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-진흥(5차)",
+      "name": "진흥(5차)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 40,
+      "kbComplexId": 4024,
+      "marketCapTrillion": 0.1529,
+      "pricePerPyeongMan": 1419,
+      "households": 432,
+      "builtYM": "1987-08",
+      "builtYear": 1987,
+      "builtText": "87년 08월 (40년차)",
+      "lat": 37.397975,
+      "lng": 126.9132944,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.56,
+      "commute": {
+        "minutes": 71,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 31026,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A7%84%ED%9D%A5%285%EC%B0%A8%29,37.397975,126.913294/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -26617,6 +28022,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-안양광신프로그레스리버뷰",
+      "name": "안양광신프로그레스리버뷰",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 41,
+      "kbComplexId": 323266,
+      "marketCapTrillion": 0.1509,
+      "pricePerPyeongMan": 2512,
+      "households": 230,
+      "builtYM": "2021-06",
+      "builtYear": 2021,
+      "builtText": "21년 06월 (6년차)",
+      "lat": 37.3911158,
+      "lng": 126.9397642,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.55,
+      "commute": {
+        "minutes": 61,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 23126,
+        "fareWon": null,
+        "summary": "BUS → SUBWAY → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EA%B4%91%EC%8B%A0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8A%A4%EB%A6%AC%EB%B2%84%EB%B7%B0,37.391116,126.939764/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-문배동-용산씨제이나인파크",
       "name": "용산씨제이나인파크",
       "region": "서울",
@@ -27080,6 +28521,42 @@
         "fareWon": 1550,
         "summary": "BUS → SUBWAY",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%8B%A0%EB%8F%99%EC%95%84,37.554372,127.032838/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-석수동-안양석수대주파크빌",
+      "name": "안양석수대주파크빌",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 42,
+      "kbComplexId": 13387,
+      "marketCapTrillion": 0.1481,
+      "pricePerPyeongMan": 2038,
+      "households": 256,
+      "builtYM": "2005-04",
+      "builtYear": 2005,
+      "builtText": "05년 04월 (22년차)",
+      "lat": 37.4190031,
+      "lng": 126.9097207,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.28,
+      "commute": {
+        "minutes": 62,
+        "transfers": 4,
+        "routeType": "SUBWAY",
+        "distanceMeters": 27754,
+        "fareWon": 1950,
+        "summary": "SUBWAY → SUBWAY → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%84%9D%EC%88%98%EB%8C%80%EC%A3%BC%ED%8C%8C%ED%81%AC%EB%B9%8C,37.419003,126.909721/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -27949,6 +29426,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-효성(화운트빌)",
+      "name": "효성(화운트빌)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 43,
+      "kbComplexId": 12259,
+      "marketCapTrillion": 0.1412,
+      "pricePerPyeongMan": 1124,
+      "households": 350,
+      "builtYM": "2003-07",
+      "builtYear": 2003,
+      "builtText": "03년 07월 (24년차)",
+      "lat": 37.3928558,
+      "lng": 126.9043812,
+      "coordsVerified": true,
+      "straightDistanceKm": 18.53,
+      "commute": {
+        "minutes": 74,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 32215,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%9A%A8%EC%84%B1%28%ED%99%94%EC%9A%B4%ED%8A%B8%EB%B9%8C%29,37.392856,126.904381/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-감이동-감일수자인",
       "name": "감일수자인",
       "region": "경기",
@@ -28417,6 +29930,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-주공",
+      "name": "주공",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 44,
+      "kbComplexId": 4015,
+      "marketCapTrillion": 0.1409,
+      "pricePerPyeongMan": 1540,
+      "households": 339,
+      "builtYM": "2000-06",
+      "builtYear": 2000,
+      "builtText": "00년 06월 (27년차)",
+      "lat": 37.3929565,
+      "lng": 126.9087853,
+      "coordsVerified": true,
+      "straightDistanceKm": 18.24,
+      "commute": {
+        "minutes": 71,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 31473,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5,37.392957,126.908785/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "seoul-청암동-천년명가청암자이",
       "name": "천년명가청암자이",
       "region": "서울",
@@ -28700,6 +30249,42 @@
         "fareWon": null,
         "summary": "SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B8%88%ED%98%B8%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%9E%90%EC%9D%B4,37.552839,127.022453/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-냉천마을현대",
+      "name": "냉천마을현대",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 45,
+      "kbComplexId": 4003,
+      "marketCapTrillion": 0.139,
+      "pricePerPyeongMan": 1369,
+      "households": 314,
+      "builtYM": "1997-06",
+      "builtYear": 1997,
+      "builtText": "97년 06월 (30년차)",
+      "lat": 37.3934857,
+      "lng": 126.9190816,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.56,
+      "commute": {
+        "minutes": 73,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 31208,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%83%89%EC%B2%9C%EB%A7%88%EC%9D%84%ED%98%84%EB%8C%80,37.393486,126.919082/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -29204,6 +30789,42 @@
         "fareWon": 1650,
         "summary": "SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/MD,37.436962,127.138758/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-박달동-극동",
+      "name": "극동",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 46,
+      "kbComplexId": 4033,
+      "marketCapTrillion": 0.1297,
+      "pricePerPyeongMan": 1252,
+      "households": 312,
+      "builtYM": "1991-12",
+      "builtYear": 1991,
+      "builtText": "91년 12월 (36년차)",
+      "lat": 37.3997635,
+      "lng": 126.9027879,
+      "coordsVerified": true,
+      "straightDistanceKm": 18.11,
+      "commute": {
+        "minutes": 69,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24439,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B7%B9%EB%8F%99,37.399764,126.902788/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -30253,6 +31874,42 @@
       "units": []
     },
     {
+      "id": "gyeonggi-안양동-안양동경남아너스빌",
+      "name": "안양동경남아너스빌",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 47,
+      "kbComplexId": 4002,
+      "marketCapTrillion": 0.1259,
+      "pricePerPyeongMan": 1727,
+      "households": 248,
+      "builtYM": "2001-11",
+      "builtYear": 2001,
+      "builtText": "01년 11월 (26년차)",
+      "lat": 37.4063672,
+      "lng": 126.9197646,
+      "coordsVerified": true,
+      "straightDistanceKm": 16.51,
+      "commute": {
+        "minutes": 66,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 30423,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%8F%99%EA%B2%BD%EB%82%A8%EC%95%84%EB%84%88%EC%8A%A4%EB%B9%8C,37.406367,126.919765/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
       "id": "gyeonggi-하대원동-주원파크빌",
       "name": "주원파크빌",
       "region": "경기",
@@ -30752,6 +32409,42 @@
         "fareWon": null,
         "summary": "BUS → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%83%A4%EB%A5%B4%EB%A7%9D,37.442764,127.142642/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-박달동-신안",
+      "name": "신안",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 48,
+      "kbComplexId": 4037,
+      "marketCapTrillion": 0.1206,
+      "pricePerPyeongMan": 1295,
+      "households": 294,
+      "builtYM": "1991-09",
+      "builtYear": 1991,
+      "builtText": "91년 09월 (36년차)",
+      "lat": 37.401362,
+      "lng": 126.9051091,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.84,
+      "commute": {
+        "minutes": 63,
+        "transfers": 2,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 24103,
+        "fareWon": 3200,
+        "summary": "BUS → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%8B%A0%EC%95%88,37.401362,126.905109/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -31292,6 +32985,42 @@
         "fareWon": 1550,
         "summary": "BUS → SUBWAY → SUBWAY",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%8B%A0%EB%B0%98%ED%8F%AC%28%ED%95%9C%EC%8B%A016%EC%B0%A8%29,37.517473,127.010123/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-안양명학역유보라더스마트",
+      "name": "안양명학역유보라더스마트",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 49,
+      "kbComplexId": 37529,
+      "marketCapTrillion": 0.115,
+      "pricePerPyeongMan": 2300,
+      "households": 200,
+      "builtYM": "2020-02",
+      "builtYear": 2020,
+      "builtText": "20년 02월 (7년차)",
+      "lat": 37.3839805,
+      "lng": 126.9345815,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.46,
+      "commute": {
+        "minutes": 62,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 23750,
+        "fareWon": null,
+        "summary": "BUS → SUBWAY → SUBWAY → BUS",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%AA%85%ED%95%99%EC%97%AD%EC%9C%A0%EB%B3%B4%EB%9D%BC%EB%8D%94%EC%8A%A4%EB%A7%88%ED%8A%B8,37.383981,126.934582/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []
@@ -32120,6 +33849,42 @@
         "fareWon": null,
         "summary": "SUBWAY → SUBWAY → BUS",
         "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%9A%A9%EC%82%B0KCC%EC%9B%B0%EC%B8%A0%ED%83%80%EC%9B%8C,37.537776,126.968894/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+        "verified": true
+      },
+      "units": []
+    },
+    {
+      "id": "gyeonggi-안양동-정우",
+      "name": "정우",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 50,
+      "kbComplexId": 3999,
+      "marketCapTrillion": 0.1102,
+      "pricePerPyeongMan": 1205,
+      "households": 351,
+      "builtYM": "1985-12",
+      "builtYear": 1985,
+      "builtText": "85년 12월 (42년차)",
+      "lat": 37.3981656,
+      "lng": 126.9127058,
+      "coordsVerified": true,
+      "straightDistanceKm": 17.59,
+      "commute": {
+        "minutes": 70,
+        "transfers": 3,
+        "routeType": "BUS_AND_SUBWAY",
+        "distanceMeters": 31154,
+        "fareWon": 2050,
+        "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+        "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A0%95%EC%9A%B0,37.398166,126.912706/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
         "verified": true
       },
       "units": []

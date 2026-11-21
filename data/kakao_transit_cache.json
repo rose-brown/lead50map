@@ -7,7 +7,7 @@
     "verified": true
   },
   "dailyTransitCalls": {
-    "2026-11-21": 879
+    "2026-11-21": 927
   },
   "coordsByComplexKey": {
     "seoul-가락동-헬리오시티": {
@@ -5234,6 +5234,300 @@
       "lng": 127.1279888,
       "placeLabel": "현대1차아파트 후문 (서울 송파구 문정동 3)",
       "savedAt": "2026-11-21T12:13:57Z"
+    },
+    "gyeonggi-안양동-삼성래미안": {
+      "lat": 37.4012413,
+      "lng": 126.9238416,
+      "placeLabel": "삼성래미안아파트 후문 (경기 안양시 만안구 안양동 90-1)",
+      "savedAt": "2026-11-21T12:50:51Z"
+    },
+    "gyeonggi-석수동-석수LG빌리지": {
+      "lat": 37.4269399,
+      "lng": 126.9014931,
+      "placeLabel": "아이스크림스토리 석수LG빌리지점 (경기 안양시 만안구 석수동 484)",
+      "savedAt": "2026-11-21T12:50:51Z"
+    },
+    "gyeonggi-석수동-석수이-편한세상": {
+      "lat": 37.4158589,
+      "lng": 126.9150914,
+      "placeLabel": "석수e편한세상아파트 정문 (경기 안양시 만안구 석수동 182-2)",
+      "savedAt": "2026-11-21T12:50:51Z"
+    },
+    "gyeonggi-안양동-주공뜨란채": {
+      "lat": 37.4009566,
+      "lng": 126.9253835,
+      "placeLabel": "주공뜨란채아파트 후문 (경기 안양시 만안구 안양동 1380)",
+      "savedAt": "2026-11-21T12:50:51Z"
+    },
+    "gyeonggi-안양동-안양씨엘포레자이": {
+      "lat": 37.3880751,
+      "lng": 126.9231729,
+      "placeLabel": "안양씨엘포레자이아파트 경로당 (경기 안양시 만안구 안양동 1416)",
+      "savedAt": "2026-11-21T12:50:51Z"
+    },
+    "gyeonggi-박달동-한라비발디": {
+      "lat": 37.4024534,
+      "lng": 126.9010756,
+      "placeLabel": "한라비발디아파트경로당 (경기 안양시 만안구 박달동 114)",
+      "savedAt": "2026-11-21T12:50:52Z"
+    },
+    "gyeonggi-석수동-석수아이파크": {
+      "lat": 37.4064588,
+      "lng": 126.9025963,
+      "placeLabel": "석수아이파크아파트 정문 (경기 안양시 만안구 석수동 788)",
+      "savedAt": "2026-11-21T12:50:52Z"
+    },
+    "gyeonggi-안양동-아르테자이": {
+      "lat": 37.415537,
+      "lng": 126.9186783,
+      "placeLabel": "아르테자이아파트 경로당 (경기 안양시 만안구 안양동 1448)",
+      "savedAt": "2026-11-21T12:50:53Z"
+    },
+    "gyeonggi-석수동-현대": {
+      "lat": 37.4165948,
+      "lng": 126.9087069,
+      "placeLabel": "현대아파트 (경기 안양시 만안구 석수동 275-1)",
+      "savedAt": "2026-11-21T12:50:53Z"
+    },
+    "gyeonggi-석수동-석수두산위브": {
+      "lat": 37.4335526,
+      "lng": 126.9005918,
+      "placeLabel": "석수두산위브아파트 스포츠센터 (경기 안양시 만안구 석수동 423-24)",
+      "savedAt": "2026-11-21T12:50:53Z"
+    },
+    "gyeonggi-안양동-성원1차": {
+      "lat": 37.3952706,
+      "lng": 126.9150864,
+      "placeLabel": "성원1차아파트 정문(방문자) (경기 안양시 만안구 안양동 710-232)",
+      "savedAt": "2026-11-21T12:50:53Z"
+    },
+    "gyeonggi-석수동-석수경남아너스빌": {
+      "lat": 37.4183409,
+      "lng": 126.9109822,
+      "placeLabel": "베스트골프아카데미 (경기 안양시 만안구 석수동 168-4)",
+      "savedAt": "2026-11-21T12:50:53Z"
+    },
+    "gyeonggi-석수동-석수역푸르지오": {
+      "lat": 37.4336933,
+      "lng": 126.9041338,
+      "placeLabel": "석수역푸르지오아파트 정문 (경기 안양시 만안구 석수동 374-5)",
+      "savedAt": "2026-11-21T12:50:53Z"
+    },
+    "gyeonggi-박달동-우성": {
+      "lat": 37.3998422,
+      "lng": 126.9077379,
+      "placeLabel": "박달동우성아파트 경로당 (경기 안양시 만안구 박달동 85)",
+      "savedAt": "2026-11-21T12:50:54Z"
+    },
+    "gyeonggi-석수동-럭키": {
+      "lat": 37.409482,
+      "lng": 126.9085586,
+      "placeLabel": "석수럭키아파트 경로당 (경기 안양시 만안구 석수동 296)",
+      "savedAt": "2026-11-21T12:50:54Z"
+    },
+    "gyeonggi-안양동-두산위브더아티움": {
+      "lat": 37.4124724,
+      "lng": 126.9157515,
+      "placeLabel": "두산위브더아티움아파트 (경기 안양시 만안구 안양동 1438)",
+      "savedAt": "2026-11-21T12:50:54Z"
+    },
+    "gyeonggi-석수동-석수코오롱하늘채": {
+      "lat": 37.409169,
+      "lng": 126.8982633,
+      "placeLabel": "석수코오롱하늘채아파트 휘트니스 커뮤센터 (경기 안양시 만안구 석수동 786)",
+      "savedAt": "2026-11-21T12:50:54Z"
+    },
+    "gyeonggi-안양동-안양역한양수자인리버파크": {
+      "lat": 37.4039771,
+      "lng": 126.9215856,
+      "placeLabel": "안양역한양수자인리버파크아파트 후문 (경기 안양시 만안구 안양동 1411)",
+      "savedAt": "2026-11-21T12:50:54Z"
+    },
+    "gyeonggi-석수동-주공그린빌(구룡)": {
+      "lat": 37.4207767,
+      "lng": 126.9103151,
+      "placeLabel": "주공그린빌아파트 (경기 안양시 만안구 석수동 805)",
+      "savedAt": "2026-11-21T12:50:55Z"
+    },
+    "gyeonggi-박달동-대림한숲타운": {
+      "lat": 37.4048597,
+      "lng": 126.8913907,
+      "placeLabel": "대림한숲타운아파트 정문 (경기 안양시 만안구 박달동 616-9)",
+      "savedAt": "2026-11-21T12:50:55Z"
+    },
+    "gyeonggi-박달동-금호타운": {
+      "lat": 37.3992461,
+      "lng": 126.9003661,
+      "placeLabel": "금호정육점 (경기 안양시 만안구 박달동 149-1)",
+      "savedAt": "2026-11-21T12:50:56Z"
+    },
+    "gyeonggi-석수동-관악산현대홈타운": {
+      "lat": 37.4207601,
+      "lng": 126.9121678,
+      "placeLabel": "관악산현대홈타운아파트 (경기 안양시 만안구 석수동 166)",
+      "savedAt": "2026-11-21T12:50:56Z"
+    },
+    "gyeonggi-안양동-수리산성원상떼빌1차": {
+      "lat": 37.3941222,
+      "lng": 126.9169781,
+      "placeLabel": "경기안양 수리산성원상떼빌1차아파트 504동 전기차충전소 (경기 안양시 만안구 안양동 709-16)",
+      "savedAt": "2026-11-21T12:50:56Z"
+    },
+    "gyeonggi-안양동-프라자": {
+      "lat": 37.3937152,
+      "lng": 126.9123688,
+      "placeLabel": "프라자피부관리 (경기 안양시 만안구 안양동 762-2)",
+      "savedAt": "2026-11-21T12:50:56Z"
+    },
+    "gyeonggi-안양동-안양대우": {
+      "lat": 37.4058431,
+      "lng": 126.9229876,
+      "placeLabel": "안양대우아파트 (경기 안양시 만안구 안양동 70)",
+      "savedAt": "2026-11-21T12:50:56Z"
+    },
+    "gyeonggi-안양동-수리산성원상떼빌2차": {
+      "lat": 37.3927604,
+      "lng": 126.9177159,
+      "placeLabel": "수리산성원상떼빌2차아파트 (경기 안양시 만안구 안양동 708-196)",
+      "savedAt": "2026-11-21T12:50:56Z"
+    },
+    "gyeonggi-박달동-한양수자인에듀파크": {
+      "lat": 37.4031451,
+      "lng": 126.9039378,
+      "placeLabel": "안양한양수자인에듀파크아파트 (경기 안양시 만안구 박달동 939)",
+      "savedAt": "2026-11-21T12:50:57Z"
+    },
+    "gyeonggi-박달동-한신휴플러스타운(3차)": {
+      "lat": 37.4049083,
+      "lng": 126.9061505,
+      "placeLabel": "한신휴플러스타운3차아파트 (경기 안양시 만안구 박달동 37)",
+      "savedAt": "2026-11-21T12:50:57Z"
+    },
+    "gyeonggi-박달동-박달동한일유앤아이": {
+      "lat": 37.4026295,
+      "lng": 126.8972455,
+      "placeLabel": "한일유앤아이아파트 전기차충전소 (경기 안양시 만안구 박달동 607-1)",
+      "savedAt": "2026-11-21T12:50:57Z"
+    },
+    "gyeonggi-안양동-수리산힐스테이트": {
+      "lat": 37.3848337,
+      "lng": 126.9029754,
+      "placeLabel": "에어컨청소,에어컨가스충전수리설치매입 (경기 안양시 만안구 안양동 1059-1)",
+      "savedAt": "2026-11-21T12:50:57Z"
+    },
+    "gyeonggi-안양동-삼성": {
+      "lat": 37.4012413,
+      "lng": 126.9238416,
+      "placeLabel": "삼성래미안아파트 후문 (경기 안양시 만안구 안양동 90-1)",
+      "savedAt": "2026-11-21T12:50:57Z"
+    },
+    "gyeonggi-석수동-힐스테이트석수": {
+      "lat": 37.4306546,
+      "lng": 126.9046574,
+      "placeLabel": "힐스테이트석수아파트 입주자대표회의 전기차충전소 (경기 안양시 만안구 석수동 386-1)",
+      "savedAt": "2026-11-21T12:50:57Z"
+    },
+    "gyeonggi-박달동-벽산": {
+      "lat": 37.4033047,
+      "lng": 126.9063332,
+      "placeLabel": "벽산아파트 경로당 (경기 안양시 만안구 박달동 107)",
+      "savedAt": "2026-11-21T12:50:58Z"
+    },
+    "gyeonggi-석수동-관악역이안": {
+      "lat": 37.4233088,
+      "lng": 126.9083102,
+      "placeLabel": "관악역이안아파트 경로당 (경기 안양시 만안구 석수동 101-16)",
+      "savedAt": "2026-11-21T12:50:58Z"
+    },
+    "gyeonggi-석수동-안양석수하우스토리": {
+      "lat": 37.4260075,
+      "lng": 126.9039075,
+      "placeLabel": "안양석수하우스토리아파트 전기차충전소 (경기 안양시 만안구 석수동 485-8)",
+      "savedAt": "2026-11-21T12:50:58Z"
+    },
+    "gyeonggi-석수동-석수2차e편한세상": {
+      "lat": 37.4315557,
+      "lng": 126.9046936,
+      "placeLabel": "석수2차e편한세상아파트 (경기 안양시 만안구 석수동 382)",
+      "savedAt": "2026-11-21T12:50:58Z"
+    },
+    "gyeonggi-안양동-벽산": {
+      "lat": 37.3963891,
+      "lng": 126.9222248,
+      "placeLabel": "벽산아파트 (경기 안양시 만안구 안양동 627-72)",
+      "savedAt": "2026-11-21T12:50:58Z"
+    },
+    "gyeonggi-안양동-수리산현대홈타운": {
+      "lat": 37.3854116,
+      "lng": 126.9033835,
+      "placeLabel": "수리산현대홈타운1단지아파트 (경기 안양시 만안구 안양동 1060)",
+      "savedAt": "2026-11-21T12:50:59Z"
+    },
+    "gyeonggi-안양동-진흥(5차)": {
+      "lat": 37.397975,
+      "lng": 126.9132944,
+      "placeLabel": "진흥5차아파트 재건축정비사업조합 (경기 안양시 만안구 안양동 914-4)",
+      "savedAt": "2026-11-21T12:50:59Z"
+    },
+    "gyeonggi-안양동-안양광신프로그레스리버뷰": {
+      "lat": 37.3911158,
+      "lng": 126.9397642,
+      "placeLabel": "안양광신프로그레스리버뷰아파트 정문 (경기 안양시 만안구 안양동 1429)",
+      "savedAt": "2026-11-21T12:50:59Z"
+    },
+    "gyeonggi-석수동-안양석수대주파크빌": {
+      "lat": 37.4190031,
+      "lng": 126.9097207,
+      "placeLabel": "삼막골옛날통닭 (경기 안양시 만안구 석수동 110-20)",
+      "savedAt": "2026-11-21T12:50:59Z"
+    },
+    "gyeonggi-안양동-효성(화운트빌)": {
+      "lat": 37.3928558,
+      "lng": 126.9043812,
+      "placeLabel": "효성화운트빌아파트 전기차충전소 (경기 안양시 만안구 안양동 976-6)",
+      "savedAt": "2026-11-21T12:50:59Z"
+    },
+    "gyeonggi-안양동-주공": {
+      "lat": 37.3929565,
+      "lng": 126.9087853,
+      "placeLabel": "율목주공아파트 경로당 (경기 안양시 만안구 안양동 969-1)",
+      "savedAt": "2026-11-21T12:50:59Z"
+    },
+    "gyeonggi-안양동-냉천마을현대": {
+      "lat": 37.3934857,
+      "lng": 126.9190816,
+      "placeLabel": "경기안양 냉천마을현대아파트 2 전기차충전소 (경기 안양시 만안구 안양동 708-9)",
+      "savedAt": "2026-11-21T12:51:00Z"
+    },
+    "gyeonggi-박달동-극동": {
+      "lat": 37.3997635,
+      "lng": 126.9027879,
+      "placeLabel": "극동아파트 전기차충전소 (경기 안양시 만안구 박달동 139-202)",
+      "savedAt": "2026-11-21T12:51:00Z"
+    },
+    "gyeonggi-안양동-안양동경남아너스빌": {
+      "lat": 37.4063672,
+      "lng": 126.9197646,
+      "placeLabel": "경기안양 경남아너스빌아파트 전기차충전소 (경기 안양시 만안구 안양동 78)",
+      "savedAt": "2026-11-21T12:51:01Z"
+    },
+    "gyeonggi-박달동-신안": {
+      "lat": 37.401362,
+      "lng": 126.9051091,
+      "placeLabel": "박달신안아파트일원 재건축사업 조합설립 추진위원회 (경기 안양시 만안구 박달동 138-4)",
+      "savedAt": "2026-11-21T12:51:01Z"
+    },
+    "gyeonggi-안양동-안양명학역유보라더스마트": {
+      "lat": 37.3839805,
+      "lng": 126.9345815,
+      "placeLabel": "안양명학역유보라더스마트아파트 (경기 안양시 만안구 안양동 1410)",
+      "savedAt": "2026-11-21T12:51:01Z"
+    },
+    "gyeonggi-안양동-정우": {
+      "lat": 37.3981656,
+      "lng": 126.9127058,
+      "placeLabel": "아이스크림스토리 안양정우아파트점 (경기 안양시 만안구 안양동 911-1)",
+      "savedAt": "2026-11-21T12:51:01Z"
     }
   },
   "transitByComplexKey": {
@@ -14106,6 +14400,496 @@
       "summary": "SUBWAY → SUBWAY → BUS",
       "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B3%BC%EC%B2%9C%EC%A3%BC%EA%B3%B5%288%EB%8B%A8%EC%A7%80%29,37.430274,126.996068/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
       "verified": true
+    },
+    "gyeonggi-석수동-석수역푸르지오": {
+      "minutes": 46,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19079,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%97%AD%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4,37.433693,126.904134/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-석수2차e편한세상": {
+      "minutes": 54,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19317,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%982%EC%B0%A8e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81,37.431556,126.904694/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-아르테자이": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22753,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%84%EB%A5%B4%ED%85%8C%EC%9E%90%EC%9D%B4,37.415537,126.918678/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-힐스테이트석수": {
+      "minutes": 54,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19338,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EC%84%9D%EC%88%98,37.430655,126.904657/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-관악산현대홈타운": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21993,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B4%80%EC%95%85%EC%82%B0%ED%98%84%EB%8C%80%ED%99%88%ED%83%80%EC%9A%B4,37.420760,126.912168/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-석수두산위브": {
+      "minutes": 53,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19197,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C,37.433553,126.900592/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-관악역이안": {
+      "minutes": 58,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21509,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B4%80%EC%95%85%EC%97%AD%EC%9D%B4%EC%95%88,37.423309,126.908310/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-주공그린빌(구룡)": {
+      "minutes": 58,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21850,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5%EA%B7%B8%EB%A6%B0%EB%B9%8C%28%EA%B5%AC%EB%A3%A1%29,37.420777,126.910315/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-석수이-편한세상": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22338,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%9D%B4-%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81,37.415859,126.915091/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-석수경남아너스빌": {
+      "minutes": 65,
+      "transfers": 4,
+      "routeType": "SUBWAY",
+      "distanceMeters": 27936,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EA%B2%BD%EB%82%A8%EC%95%84%EB%84%88%EC%8A%A4%EB%B9%8C,37.418341,126.910982/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-안양석수하우스토리": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21094,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%84%9D%EC%88%98%ED%95%98%EC%9A%B0%EC%8A%A4%ED%86%A0%EB%A6%AC,37.426008,126.903908/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-안양석수대주파크빌": {
+      "minutes": 62,
+      "transfers": 4,
+      "routeType": "SUBWAY",
+      "distanceMeters": 27754,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%84%9D%EC%88%98%EB%8C%80%EC%A3%BC%ED%8C%8C%ED%81%AC%EB%B9%8C,37.419003,126.909721/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-두산위브더아티움": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22914,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EB%8D%94%EC%95%84%ED%8B%B0%EC%9B%80,37.412472,126.915752/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-안양대우": {
+      "minutes": 68,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30712,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%8C%80%EC%9A%B0,37.405843,126.922988/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-석수LG빌리지": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21010,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98LG%EB%B9%8C%EB%A6%AC%EC%A7%80,37.426940,126.901493/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-안양동경남아너스빌": {
+      "minutes": 66,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30423,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%8F%99%EA%B2%BD%EB%82%A8%EC%95%84%EB%84%88%EC%8A%A4%EB%B9%8C,37.406367,126.919765/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-현대": {
+      "minutes": 54,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21346,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%98%84%EB%8C%80,37.416595,126.908707/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-안양광신프로그레스리버뷰": {
+      "minutes": 61,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 23126,
+      "fareWon": null,
+      "summary": "BUS → SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EA%B4%91%EC%8B%A0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8A%A4%EB%A6%AC%EB%B2%84%EB%B7%B0,37.391116,126.939764/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-안양역한양수자인리버파크": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30031,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%97%AD%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EB%A6%AC%EB%B2%84%ED%8C%8C%ED%81%AC,37.403977,126.921586/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-주공뜨란채": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30094,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5%EB%9C%A8%EB%9E%80%EC%B1%84,37.400957,126.925384/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-삼성": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 29899,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%82%BC%EC%84%B1,37.401241,126.923842/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-삼성래미안": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 29899,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%82%BC%EC%84%B1,37.401241,126.923842/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-럭키": {
+      "minutes": 65,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22256,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%9F%AD%ED%82%A4,37.409482,126.908559/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-벽산": {
+      "minutes": 74,
+      "transfers": 2,
+      "routeType": "SUBWAY",
+      "distanceMeters": 30590,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B2%BD%EC%82%B0,37.396389,126.922225/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-안양명학역유보라더스마트": {
+      "minutes": 62,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 23750,
+      "fareWon": null,
+      "summary": "BUS → SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%AA%85%ED%95%99%EC%97%AD%EC%9C%A0%EB%B3%B4%EB%9D%BC%EB%8D%94%EC%8A%A4%EB%A7%88%ED%8A%B8,37.383981,126.934582/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-한신휴플러스타운(3차)": {
+      "minutes": 68,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24372,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EC%8B%A0%ED%9C%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%ED%83%80%EC%9A%B4%283%EC%B0%A8%29,37.404908,126.906151/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-냉천마을현대": {
+      "minutes": 73,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31208,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%83%89%EC%B2%9C%EB%A7%88%EC%9D%84%ED%98%84%EB%8C%80,37.393486,126.919082/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-진흥(5차)": {
+      "minutes": 71,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31026,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A7%84%ED%9D%A5%285%EC%B0%A8%29,37.397975,126.913294/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-정우": {
+      "minutes": 70,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31154,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A0%95%EC%9A%B0,37.398166,126.912706/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-벽산": {
+      "minutes": 65,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24215,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B2%BD%EC%82%B0,37.403305,126.906333/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-석수아이파크": {
+      "minutes": 66,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24063,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC,37.406459,126.902596/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-수리산성원상떼빌1차": {
+      "minutes": 69,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31074,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C1%EC%B0%A8,37.394122,126.916978/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-성원1차": {
+      "minutes": 68,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30752,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%B1%EC%9B%901%EC%B0%A8,37.395271,126.915086/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-수리산성원상떼빌2차": {
+      "minutes": 72,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31213,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C2%EC%B0%A8,37.392760,126.917716/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-석수동-석수코오롱하늘채": {
+      "minutes": 70,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 25294,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84,37.409169,126.898263/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-안양씨엘포레자이": {
+      "minutes": 72,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 25473,
+      "fareWon": null,
+      "summary": "BUS → SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%94%A8%EC%97%98%ED%8F%AC%EB%A0%88%EC%9E%90%EC%9D%B4,37.388075,126.923173/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-우성": {
+      "minutes": 72,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24464,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%9A%B0%EC%84%B1,37.399842,126.907738/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-한양수자인에듀파크": {
+      "minutes": 67,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24334,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%97%90%EB%93%80%ED%8C%8C%ED%81%AC,37.403145,126.903938/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-신안": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24103,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%8B%A0%EC%95%88,37.401362,126.905109/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-프라자": {
+      "minutes": 69,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31143,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%94%84%EB%9D%BC%EC%9E%90,37.393715,126.912369/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-한라비발디": {
+      "minutes": 69,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24430,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EB%9D%BC%EB%B9%84%EB%B0%9C%EB%94%94,37.402453,126.901076/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-극동": {
+      "minutes": 69,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24439,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B7%B9%EB%8F%99,37.399764,126.902788/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-주공": {
+      "minutes": 71,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31473,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5,37.392957,126.908785/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-박달동한일유앤아이": {
+      "minutes": 72,
+      "transfers": 2,
+      "routeType": "BUS",
+      "distanceMeters": 30232,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B0%95%EB%8B%AC%EB%8F%99%ED%95%9C%EC%9D%BC%EC%9C%A0%EC%95%A4%EC%95%84%EC%9D%B4,37.402630,126.897246/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-금호타운": {
+      "minutes": 73,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24504,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B8%88%ED%98%B8%ED%83%80%EC%9A%B4,37.399246,126.900366/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-박달동-대림한숲타운": {
+      "minutes": 74,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 26316,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%8C%80%EB%A6%BC%ED%95%9C%EC%88%B2%ED%83%80%EC%9A%B4,37.404860,126.891391/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-효성(화운트빌)": {
+      "minutes": 74,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 32215,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%9A%A8%EC%84%B1%28%ED%99%94%EC%9A%B4%ED%8A%B8%EB%B9%8C%29,37.392856,126.904381/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-수리산현대홈타운": {
+      "minutes": 79,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 32737,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%ED%98%84%EB%8C%80%ED%99%88%ED%83%80%EC%9A%B4,37.385412,126.903384/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "gyeonggi-안양동-수리산힐스테이트": {
+      "minutes": 80,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 32948,
+      "fareWon": 2150,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8,37.384834,126.902975/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
     }
   },
   "transitByCoordKey": {
@@ -22897,6 +23681,486 @@
       "fareWon": null,
       "summary": "SUBWAY → SUBWAY → BUS",
       "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B4%91%EA%B5%90%EC%9E%90%EC%9D%B4%EB%8D%94%ED%81%B4%EB%9E%98%EC%8A%A4,37.296934,127.073032/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.43369,126.90413->37.50738,127.05682": {
+      "minutes": 46,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19079,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%97%AD%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4,37.433693,126.904134/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.43156,126.90469->37.50738,127.05682": {
+      "minutes": 54,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19317,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%982%EC%B0%A8e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81,37.431556,126.904694/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.41554,126.91868->37.50738,127.05682": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22753,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%84%EB%A5%B4%ED%85%8C%EC%9E%90%EC%9D%B4,37.415537,126.918678/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.43065,126.90466->37.50738,127.05682": {
+      "minutes": 54,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19338,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EC%84%9D%EC%88%98,37.430655,126.904657/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.42076,126.91217->37.50738,127.05682": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21993,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B4%80%EC%95%85%EC%82%B0%ED%98%84%EB%8C%80%ED%99%88%ED%83%80%EC%9A%B4,37.420760,126.912168/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.43355,126.90059->37.50738,127.05682": {
+      "minutes": 53,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 19197,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C,37.433553,126.900592/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.42331,126.90831->37.50738,127.05682": {
+      "minutes": 58,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21509,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B4%80%EC%95%85%EC%97%AD%EC%9D%B4%EC%95%88,37.423309,126.908310/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.42078,126.91032->37.50738,127.05682": {
+      "minutes": 58,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21850,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5%EA%B7%B8%EB%A6%B0%EB%B9%8C%28%EA%B5%AC%EB%A3%A1%29,37.420777,126.910315/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.41586,126.91509->37.50738,127.05682": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22338,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%9D%B4-%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81,37.415859,126.915091/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.41834,126.91098->37.50738,127.05682": {
+      "minutes": 65,
+      "transfers": 4,
+      "routeType": "SUBWAY",
+      "distanceMeters": 27936,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EA%B2%BD%EB%82%A8%EC%95%84%EB%84%88%EC%8A%A4%EB%B9%8C,37.418341,126.910982/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.42601,126.90391->37.50738,127.05682": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21094,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%84%9D%EC%88%98%ED%95%98%EC%9A%B0%EC%8A%A4%ED%86%A0%EB%A6%AC,37.426008,126.903908/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.41900,126.90972->37.50738,127.05682": {
+      "minutes": 62,
+      "transfers": 4,
+      "routeType": "SUBWAY",
+      "distanceMeters": 27754,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%84%9D%EC%88%98%EB%8C%80%EC%A3%BC%ED%8C%8C%ED%81%AC%EB%B9%8C,37.419003,126.909721/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.41247,126.91575->37.50738,127.05682": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22914,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EB%8D%94%EC%95%84%ED%8B%B0%EC%9B%80,37.412472,126.915752/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40584,126.92299->37.50738,127.05682": {
+      "minutes": 68,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30712,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%8C%80%EC%9A%B0,37.405843,126.922988/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.42694,126.90149->37.50738,127.05682": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21010,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98LG%EB%B9%8C%EB%A6%AC%EC%A7%80,37.426940,126.901493/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40637,126.91976->37.50738,127.05682": {
+      "minutes": 66,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30423,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%8F%99%EA%B2%BD%EB%82%A8%EC%95%84%EB%84%88%EC%8A%A4%EB%B9%8C,37.406367,126.919765/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.41659,126.90871->37.50738,127.05682": {
+      "minutes": 54,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 21346,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%98%84%EB%8C%80,37.416595,126.908707/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39112,126.93976->37.50738,127.05682": {
+      "minutes": 61,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 23126,
+      "fareWon": null,
+      "summary": "BUS → SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EA%B4%91%EC%8B%A0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8A%A4%EB%A6%AC%EB%B2%84%EB%B7%B0,37.391116,126.939764/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40398,126.92159->37.50738,127.05682": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30031,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%97%AD%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EB%A6%AC%EB%B2%84%ED%8C%8C%ED%81%AC,37.403977,126.921586/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40096,126.92538->37.50738,127.05682": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30094,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5%EB%9C%A8%EB%9E%80%EC%B1%84,37.400957,126.925384/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40124,126.92384->37.50738,127.05682": {
+      "minutes": 60,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 29899,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%82%BC%EC%84%B1,37.401241,126.923842/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40948,126.90856->37.50738,127.05682": {
+      "minutes": 65,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 22256,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%9F%AD%ED%82%A4,37.409482,126.908559/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39639,126.92222->37.50738,127.05682": {
+      "minutes": 74,
+      "transfers": 2,
+      "routeType": "SUBWAY",
+      "distanceMeters": 30590,
+      "fareWon": 1950,
+      "summary": "SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B2%BD%EC%82%B0,37.396389,126.922225/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.38398,126.93458->37.50738,127.05682": {
+      "minutes": 62,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 23750,
+      "fareWon": null,
+      "summary": "BUS → SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EB%AA%85%ED%95%99%EC%97%AD%EC%9C%A0%EB%B3%B4%EB%9D%BC%EB%8D%94%EC%8A%A4%EB%A7%88%ED%8A%B8,37.383981,126.934582/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40491,126.90615->37.50738,127.05682": {
+      "minutes": 68,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24372,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EC%8B%A0%ED%9C%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%ED%83%80%EC%9A%B4%283%EC%B0%A8%29,37.404908,126.906151/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39349,126.91908->37.50738,127.05682": {
+      "minutes": 73,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31208,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%83%89%EC%B2%9C%EB%A7%88%EC%9D%84%ED%98%84%EB%8C%80,37.393486,126.919082/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39798,126.91329->37.50738,127.05682": {
+      "minutes": 71,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31026,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A7%84%ED%9D%A5%285%EC%B0%A8%29,37.397975,126.913294/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39817,126.91271->37.50738,127.05682": {
+      "minutes": 70,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31154,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A0%95%EC%9A%B0,37.398166,126.912706/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40330,126.90633->37.50738,127.05682": {
+      "minutes": 65,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24215,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B2%BD%EC%82%B0,37.403305,126.906333/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40646,126.90260->37.50738,127.05682": {
+      "minutes": 66,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24063,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC,37.406459,126.902596/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39412,126.91698->37.50738,127.05682": {
+      "minutes": 69,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31074,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C1%EC%B0%A8,37.394122,126.916978/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39527,126.91509->37.50738,127.05682": {
+      "minutes": 68,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 30752,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%B1%EC%9B%901%EC%B0%A8,37.395271,126.915086/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39276,126.91772->37.50738,127.05682": {
+      "minutes": 72,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31213,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C2%EC%B0%A8,37.392760,126.917716/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40917,126.89826->37.50738,127.05682": {
+      "minutes": 70,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 25294,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%84%9D%EC%88%98%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84,37.409169,126.898263/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.38808,126.92317->37.50738,127.05682": {
+      "minutes": 72,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 25473,
+      "fareWon": null,
+      "summary": "BUS → SUBWAY → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%95%88%EC%96%91%EC%94%A8%EC%97%98%ED%8F%AC%EB%A0%88%EC%9E%90%EC%9D%B4,37.388075,126.923173/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39984,126.90774->37.50738,127.05682": {
+      "minutes": 72,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24464,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%9A%B0%EC%84%B1,37.399842,126.907738/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40315,126.90394->37.50738,127.05682": {
+      "minutes": 67,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24334,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%97%90%EB%93%80%ED%8C%8C%ED%81%AC,37.403145,126.903938/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40136,126.90511->37.50738,127.05682": {
+      "minutes": 63,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24103,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%8B%A0%EC%95%88,37.401362,126.905109/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39372,126.91237->37.50738,127.05682": {
+      "minutes": 69,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31143,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%94%84%EB%9D%BC%EC%9E%90,37.393715,126.912369/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40245,126.90108->37.50738,127.05682": {
+      "minutes": 69,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24430,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%95%9C%EB%9D%BC%EB%B9%84%EB%B0%9C%EB%94%94,37.402453,126.901076/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39976,126.90279->37.50738,127.05682": {
+      "minutes": 69,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24439,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B7%B9%EB%8F%99,37.399764,126.902788/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39296,126.90879->37.50738,127.05682": {
+      "minutes": 71,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 31473,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%A3%BC%EA%B3%B5,37.392957,126.908785/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40263,126.89725->37.50738,127.05682": {
+      "minutes": 72,
+      "transfers": 2,
+      "routeType": "BUS",
+      "distanceMeters": 30232,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%B0%95%EB%8B%AC%EB%8F%99%ED%95%9C%EC%9D%BC%EC%9C%A0%EC%95%A4%EC%95%84%EC%9D%B4,37.402630,126.897246/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39925,126.90037->37.50738,127.05682": {
+      "minutes": 73,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 24504,
+      "fareWon": 3200,
+      "summary": "BUS → SUBWAY → BUS",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EA%B8%88%ED%98%B8%ED%83%80%EC%9A%B4,37.399246,126.900366/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.40486,126.89139->37.50738,127.05682": {
+      "minutes": 74,
+      "transfers": 2,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 26316,
+      "fareWon": 3200,
+      "summary": "BUS → BUS → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EB%8C%80%EB%A6%BC%ED%95%9C%EC%88%B2%ED%83%80%EC%9A%B4,37.404860,126.891391/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.39286,126.90438->37.50738,127.05682": {
+      "minutes": 74,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 32215,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%ED%9A%A8%EC%84%B1%28%ED%99%94%EC%9A%B4%ED%8A%B8%EB%B9%8C%29,37.392856,126.904381/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.38541,126.90338->37.50738,127.05682": {
+      "minutes": 79,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 32737,
+      "fareWon": 2050,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%ED%98%84%EB%8C%80%ED%99%88%ED%83%80%EC%9A%B4,37.385412,126.903384/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
+      "verified": true
+    },
+    "37.38483,126.90298->37.50738,127.05682": {
+      "minutes": 80,
+      "transfers": 3,
+      "routeType": "BUS_AND_SUBWAY",
+      "distanceMeters": 32948,
+      "fareWon": 2150,
+      "summary": "BUS → SUBWAY → SUBWAY → SUBWAY",
+      "landingUrl": "https://map.kakao.com/link/by/traffic/%EC%88%98%EB%A6%AC%EC%82%B0%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8,37.384834,126.902975/%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C+501,37.507381,127.056821",
       "verified": true
     }
   }

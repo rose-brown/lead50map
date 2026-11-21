@@ -1,6 +1,6 @@
 {
   "asOf": "2026-10",
-  "datasetNote": "merged_889",
+  "datasetNote": "merged_938",
   "complexes": [
     {
       "id": "seoul-가락동-헬리오시티",
@@ -1182,17 +1182,20 @@
       "location": "안양시 만안구 안양동",
       "dong": "안양동",
       "sources": [
-        "gyeonggi_top50"
+        "gyeonggi_top50",
+        "district_top50"
       ],
       "lead50Rank": null,
       "gyeonggiTopRank": 8,
-      "marketCapTrillion": 4.39,
+      "marketCapTrillion": 4.3906,
       "pricePerPyeongMan": 3507,
       "households": 4243,
       "builtYM": "2016-11",
       "builtYear": 2016,
       "builtText": "16년 11월 (11년차)",
-      "district": "안양시 만안구"
+      "district": "안양시 만안구",
+      "districtRank": 1,
+      "kbComplexId": 31631
     },
     {
       "id": "gyeonggi-별양동-과천자이",
@@ -2200,6 +2203,27 @@
       "builtText": "17년 02월 (10년차)"
     },
     {
+      "id": "gyeonggi-안양동-삼성래미안",
+      "name": "삼성래미안",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 2,
+      "kbComplexId": 4011,
+      "marketCapTrillion": 1.7902,
+      "pricePerPyeongMan": 2960,
+      "households": 1998,
+      "builtYM": "2002-01",
+      "builtYear": 2002,
+      "builtText": "02년 01월 (25년차)"
+    },
+    {
       "id": "seoul-성산동-성산시영",
       "name": "성산시영",
       "region": "서울",
@@ -2452,6 +2476,27 @@
       "builtText": "75년 12월 (52년차)"
     },
     {
+      "id": "gyeonggi-석수동-석수LG빌리지",
+      "name": "석수LG빌리지",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 3,
+      "kbComplexId": 4045,
+      "marketCapTrillion": 1.4257,
+      "pricePerPyeongMan": 2610,
+      "households": 1872,
+      "builtYM": "2001-05",
+      "builtYear": 2001,
+      "builtText": "01년 05월 (26년차)"
+    },
+    {
       "id": "gyeonggi-여수동-센트럴타운",
       "name": "센트럴타운",
       "region": "경기",
@@ -2597,6 +2642,27 @@
       "builtYM": "2022-12",
       "builtYear": 2022,
       "builtText": "22년 12월 (5년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-석수이-편한세상",
+      "name": "석수이-편한세상",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 4,
+      "kbComplexId": 4044,
+      "marketCapTrillion": 1.3357,
+      "pricePerPyeongMan": 2207,
+      "households": 1908,
+      "builtYM": "2002-05",
+      "builtYear": 2002,
+      "builtText": "02년 05월 (25년차)"
     },
     {
       "id": "seoul-한강로3가-센트럴파크",
@@ -2872,6 +2938,27 @@
       "builtText": "86년 07월 (41년차)"
     },
     {
+      "id": "gyeonggi-안양동-주공뜨란채",
+      "name": "주공뜨란채",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 5,
+      "kbComplexId": 13032,
+      "marketCapTrillion": 0.9357,
+      "pricePerPyeongMan": 3089,
+      "households": 1093,
+      "builtYM": "2004-11",
+      "builtYear": 2004,
+      "builtText": "04년 11월 (23년차)"
+    },
+    {
       "id": "gyeonggi-학암동-플로리체위례",
       "name": "플로리체위례",
       "region": "경기",
@@ -3101,6 +3188,27 @@
       "builtYM": "2003-10",
       "builtYear": 2003,
       "builtText": "03년 10월 (24년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-안양씨엘포레자이",
+      "name": "안양씨엘포레자이",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 6,
+      "kbComplexId": 41868,
+      "marketCapTrillion": 0.88,
+      "pricePerPyeongMan": 2668,
+      "households": 1209,
+      "builtYM": "2021-02",
+      "builtYear": 2021,
+      "builtText": "21년 02월 (6년차)"
     },
     {
       "id": "gyeonggi-창곡동-위례호반써밋에비뉴",
@@ -3481,6 +3589,27 @@
       "builtText": "16년 06월 (11년차)"
     },
     {
+      "id": "gyeonggi-박달동-한라비발디",
+      "name": "한라비발디",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 7,
+      "kbComplexId": 4042,
+      "marketCapTrillion": 0.8089,
+      "pricePerPyeongMan": 1713,
+      "households": 1385,
+      "builtYM": "2000-09",
+      "builtYear": 2000,
+      "builtText": "00년 09월 (27년차)"
+    },
+    {
       "id": "seoul-구의동-e편한세상광진그랜드파크",
       "name": "e편한세상광진그랜드파크",
       "region": "서울",
@@ -3689,6 +3818,27 @@
       "builtYM": "2020-01",
       "builtYear": 2020,
       "builtText": "20년 01월 (7년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-석수아이파크",
+      "name": "석수아이파크",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 8,
+      "kbComplexId": 21437,
+      "marketCapTrillion": 0.767,
+      "pricePerPyeongMan": 1968,
+      "households": 1134,
+      "builtYM": "2009-09",
+      "builtYear": 2009,
+      "builtText": "09년 09월 (18년차)"
     },
     {
       "id": "gyeonggi-중앙동-주공(10단지)",
@@ -4025,6 +4175,27 @@
       "builtYM": "2021-06",
       "builtYear": 2021,
       "builtText": "21년 06월 (6년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-아르테자이",
+      "name": "아르테자이",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 9,
+      "kbComplexId": 47693,
+      "marketCapTrillion": 0.7589,
+      "pricePerPyeongMan": 2958,
+      "households": 962,
+      "builtYM": "2023-04",
+      "builtYear": 2023,
+      "builtText": "23년 04월 (4년차)"
     },
     {
       "id": "seoul-여의도동-여의도자이",
@@ -4405,6 +4576,27 @@
       "builtText": "75년 11월 (52년차)"
     },
     {
+      "id": "gyeonggi-석수동-현대",
+      "name": "현대",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 10,
+      "kbComplexId": 4043,
+      "marketCapTrillion": 0.7485,
+      "pricePerPyeongMan": 2074,
+      "households": 1088,
+      "builtYM": "1999-11",
+      "builtYear": 1999,
+      "builtText": "99년 11월 (28년차)"
+    },
+    {
       "id": "gyeonggi-호계동-호계2차현대홈타운",
       "name": "호계2차현대홈타운",
       "region": "경기",
@@ -4634,6 +4826,27 @@
       "builtYM": "1992-11",
       "builtYear": 1992,
       "builtText": "92년 11월 (35년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-석수두산위브",
+      "name": "석수두산위브",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 11,
+      "kbComplexId": 22211,
+      "marketCapTrillion": 0.7092,
+      "pricePerPyeongMan": 2887,
+      "households": 742,
+      "builtYM": "2010-09",
+      "builtYear": 2010,
+      "builtText": "10년 09월 (17년차)"
     },
     {
       "id": "seoul-옥수동-옥수삼성",
@@ -4949,6 +5162,27 @@
       "builtYM": "2021-01",
       "builtYear": 2021,
       "builtText": "21년 01월 (6년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-성원1차",
+      "name": "성원1차",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 12,
+      "kbComplexId": 3995,
+      "marketCapTrillion": 0.4978,
+      "pricePerPyeongMan": 1683,
+      "households": 934,
+      "builtYM": "1995-11",
+      "builtYear": 1995,
+      "builtText": "95년 11월 (32년차)"
     },
     {
       "id": "seoul-영등포동7가-아크로타워스퀘어",
@@ -5329,6 +5563,27 @@
       "builtText": "09년 07월 (18년차)"
     },
     {
+      "id": "gyeonggi-석수동-석수경남아너스빌",
+      "name": "석수경남아너스빌",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 13,
+      "kbComplexId": 4047,
+      "marketCapTrillion": 0.4744,
+      "pricePerPyeongMan": 2140,
+      "households": 704,
+      "builtYM": "2002-10",
+      "builtYear": 2002,
+      "builtText": "02년 10월 (25년차)"
+    },
+    {
       "id": "gyeonggi-풍덕천동-수지현대.",
       "name": "수지현대.",
       "region": "경기",
@@ -5642,6 +5897,27 @@
       "builtYM": "2021-02",
       "builtYear": 2021,
       "builtText": "21년 02월 (6년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-석수역푸르지오",
+      "name": "석수역푸르지오",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 14,
+      "kbComplexId": 22210,
+      "marketCapTrillion": 0.4601,
+      "pricePerPyeongMan": 2782,
+      "households": 538,
+      "builtYM": "2009-06",
+      "builtYear": 2009,
+      "builtText": "09년 06월 (18년차)"
     },
     {
       "id": "gyeonggi-하대원동-성남자이",
@@ -6085,6 +6361,27 @@
       "builtText": "11년 04월 (16년차)"
     },
     {
+      "id": "gyeonggi-박달동-우성",
+      "name": "우성",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 15,
+      "kbComplexId": 4032,
+      "marketCapTrillion": 0.4517,
+      "pricePerPyeongMan": 1509,
+      "households": 1020,
+      "builtYM": "1990-05",
+      "builtYear": 1990,
+      "builtText": "90년 05월 (37년차)"
+    },
+    {
       "id": "gyeonggi-하안동-주공5단지",
       "name": "주공5단지",
       "region": "경기",
@@ -6293,6 +6590,27 @@
       "builtYM": "2008-08",
       "builtYear": 2008,
       "builtText": "08년 08월 (19년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-럭키",
+      "name": "럭키",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 16,
+      "kbComplexId": 4054,
+      "marketCapTrillion": 0.3811,
+      "pricePerPyeongMan": 1730,
+      "households": 735,
+      "builtYM": "1987-05",
+      "builtYear": 1987,
+      "builtText": "87년 05월 (40년차)"
     },
     {
       "id": "gyeonggi-중앙동-롯데캐슬",
@@ -6650,6 +6968,27 @@
       "builtYM": "1993-04",
       "builtYear": 1993,
       "builtText": "93년 04월 (34년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-두산위브더아티움",
+      "name": "두산위브더아티움",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 17,
+      "kbComplexId": 47141,
+      "marketCapTrillion": 0.3801,
+      "pricePerPyeongMan": 2821,
+      "households": 513,
+      "builtYM": "2023-01",
+      "builtYear": 2023,
+      "builtText": "23년 01월 (4년차)"
     },
     {
       "id": "seoul-염리동-마포자이",
@@ -7135,6 +7474,27 @@
       "builtText": "07년 07월 (20년차)"
     },
     {
+      "id": "gyeonggi-석수동-석수코오롱하늘채",
+      "name": "석수코오롱하늘채",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 18,
+      "kbComplexId": 16126,
+      "marketCapTrillion": 0.3459,
+      "pricePerPyeongMan": 1832,
+      "households": 545,
+      "builtYM": "2010-02",
+      "builtYear": 2010,
+      "builtText": "10년 02월 (17년차)"
+    },
+    {
       "id": "seoul-거여동-송파시그니처롯데캐슬",
       "name": "송파시그니처롯데캐슬",
       "region": "서울",
@@ -7511,6 +7871,27 @@
       "builtYM": "1986-02",
       "builtYear": 1986,
       "builtText": "86년 02월 (41년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-안양역한양수자인리버파크",
+      "name": "안양역한양수자인리버파크",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 19,
+      "kbComplexId": 34547,
+      "marketCapTrillion": 0.3458,
+      "pricePerPyeongMan": 3201,
+      "households": 396,
+      "builtYM": "2019-01",
+      "builtYear": 2019,
+      "builtText": "19년 01월 (8년차)"
     },
     {
       "id": "seoul-자양동-자양우성3차",
@@ -7933,6 +8314,27 @@
       "builtText": "13년 02월 (14년차)"
     },
     {
+      "id": "gyeonggi-석수동-주공그린빌(구룡)",
+      "name": "주공그린빌(구룡)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 20,
+      "kbComplexId": 13721,
+      "marketCapTrillion": 0.3386,
+      "pricePerPyeongMan": 2206,
+      "households": 541,
+      "builtYM": "2003-09",
+      "builtYear": 2003,
+      "builtText": "03년 09월 (24년차)"
+    },
+    {
       "id": "seoul-옥수동-한남하이츠",
       "name": "한남하이츠",
       "region": "서울",
@@ -8036,6 +8438,27 @@
       "builtYM": "2002-06",
       "builtYear": 2002,
       "builtText": "02년 06월 (25년차)"
+    },
+    {
+      "id": "gyeonggi-박달동-대림한숲타운",
+      "name": "대림한숲타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 21,
+      "kbComplexId": 4040,
+      "marketCapTrillion": 0.3218,
+      "pricePerPyeongMan": 1442,
+      "households": 728,
+      "builtYM": "2001-08",
+      "builtYear": 2001,
+      "builtText": "01년 08월 (26년차)"
     },
     {
       "id": "gyeonggi-도촌동-동분당파크뷰",
@@ -8416,6 +8839,27 @@
       "builtText": "18년 12월 (9년차)"
     },
     {
+      "id": "gyeonggi-박달동-금호타운",
+      "name": "금호타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 22,
+      "kbComplexId": 4035,
+      "marketCapTrillion": 0.3048,
+      "pricePerPyeongMan": 1362,
+      "households": 752,
+      "builtYM": "1996-10",
+      "builtYear": 1996,
+      "builtText": "96년 10월 (31년차)"
+    },
+    {
       "id": "gyeonggi-구미동-까치마을(롯데,선경)",
       "name": "까치마을(롯데,선경)",
       "region": "경기",
@@ -8792,6 +9236,27 @@
       "builtYM": "1999-10",
       "builtYear": 1999,
       "builtText": "99년 10월 (28년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-관악산현대홈타운",
+      "name": "관악산현대홈타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 23,
+      "kbComplexId": 4046,
+      "marketCapTrillion": 0.275,
+      "pricePerPyeongMan": 2211,
+      "households": 376,
+      "builtYM": "2001-09",
+      "builtYear": 2001,
+      "builtText": "01년 09월 (26년차)"
     },
     {
       "id": "gyeonggi-광명동-광명해모로이연",
@@ -9277,6 +9742,27 @@
       "builtText": "13년 11월 (14년차)"
     },
     {
+      "id": "gyeonggi-안양동-수리산성원상떼빌1차",
+      "name": "수리산성원상떼빌1차",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 24,
+      "kbComplexId": 15851,
+      "marketCapTrillion": 0.2652,
+      "pricePerPyeongMan": 1798,
+      "households": 469,
+      "builtYM": "2006-12",
+      "builtYear": 2006,
+      "builtText": "06년 12월 (21년차)"
+    },
+    {
       "id": "gyeonggi-신흥동-신동아파라디움",
       "name": "신동아파라디움",
       "region": "경기",
@@ -9718,6 +10204,27 @@
       "builtText": "79년 08월 (48년차)"
     },
     {
+      "id": "gyeonggi-안양동-프라자",
+      "name": "프라자",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 25,
+      "kbComplexId": 4000,
+      "marketCapTrillion": 0.2555,
+      "pricePerPyeongMan": 1573,
+      "households": 637,
+      "builtYM": "1987-04",
+      "builtYear": 1987,
+      "builtText": "87년 04월 (40년차)"
+    },
+    {
       "id": "gyeonggi-평촌동-향촌(현대5차)",
       "name": "향촌(현대5차)",
       "region": "경기",
@@ -10054,6 +10561,27 @@
       "builtText": "09년 10월 (18년차)"
     },
     {
+      "id": "gyeonggi-안양동-안양대우",
+      "name": "안양대우",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 26,
+      "kbComplexId": 3997,
+      "marketCapTrillion": 0.235,
+      "pricePerPyeongMan": 1624,
+      "households": 498,
+      "builtYM": "1991-09",
+      "builtYear": 1991,
+      "builtText": "91년 09월 (36년차)"
+    },
+    {
       "id": "gyeonggi-정자동-한솔마을(4단지)",
       "name": "한솔마을(4단지)",
       "region": "경기",
@@ -10367,6 +10895,27 @@
       "builtYM": "1992-10",
       "builtYear": 1992,
       "builtText": "92년 10월 (35년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-수리산성원상떼빌2차",
+      "name": "수리산성원상떼빌2차",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 27,
+      "kbComplexId": 14483,
+      "marketCapTrillion": 0.2278,
+      "pricePerPyeongMan": 1686,
+      "households": 436,
+      "builtYM": "2007-02",
+      "builtYear": 2007,
+      "builtText": "07년 02월 (20년차)"
     },
     {
       "id": "seoul-역삼동-역삼래미안",
@@ -10852,6 +11401,27 @@
       "builtText": "95년 03월 (32년차)"
     },
     {
+      "id": "gyeonggi-박달동-한양수자인에듀파크",
+      "name": "한양수자인에듀파크",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 28,
+      "kbComplexId": 31133,
+      "marketCapTrillion": 0.2263,
+      "pricePerPyeongMan": 2174,
+      "households": 348,
+      "builtYM": "2017-11",
+      "builtYear": 2017,
+      "builtText": "17년 11월 (10년차)"
+    },
+    {
       "id": "seoul-여의도동-공작",
       "name": "공작",
       "region": "서울",
@@ -11188,6 +11758,27 @@
       "builtText": "93년 07월 (34년차)"
     },
     {
+      "id": "gyeonggi-박달동-한신휴플러스타운(3차)",
+      "name": "한신휴플러스타운(3차)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 29,
+      "kbComplexId": 22920,
+      "marketCapTrillion": 0.226,
+      "pricePerPyeongMan": 1729,
+      "households": 392,
+      "builtYM": "2009-12",
+      "builtYear": 2009,
+      "builtText": "09년 12월 (18년차)"
+    },
+    {
       "id": "seoul-신대방동-현대",
       "name": "현대",
       "region": "서울",
@@ -11333,6 +11924,27 @@
       "builtYM": "2001-06",
       "builtYear": 2001,
       "builtText": "01년 06월 (26년차)"
+    },
+    {
+      "id": "gyeonggi-박달동-박달동한일유앤아이",
+      "name": "박달동한일유앤아이",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 30,
+      "kbComplexId": 13264,
+      "marketCapTrillion": 0.1917,
+      "pricePerPyeongMan": 1735,
+      "households": 375,
+      "builtYM": "2005-02",
+      "builtYear": 2005,
+      "builtText": "05년 02월 (22년차)"
     },
     {
       "id": "seoul-반포동-반포힐스테이트",
@@ -11755,6 +12367,27 @@
       "builtText": "02년 12월 (25년차)"
     },
     {
+      "id": "gyeonggi-안양동-수리산힐스테이트",
+      "name": "수리산힐스테이트",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 31,
+      "kbComplexId": 14049,
+      "marketCapTrillion": 0.1887,
+      "pricePerPyeongMan": 1495,
+      "households": 441,
+      "builtYM": "2006-10",
+      "builtYear": 2006,
+      "builtText": "06년 10월 (21년차)"
+    },
+    {
       "id": "seoul-여의도동-은하.",
       "name": "은하.",
       "region": "서울",
@@ -12026,6 +12659,27 @@
       "builtYM": "1992-09",
       "builtYear": 1992,
       "builtText": "92년 09월 (35년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-삼성",
+      "name": "삼성",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 32,
+      "kbComplexId": 3998,
+      "marketCapTrillion": 0.1839,
+      "pricePerPyeongMan": 1588,
+      "households": 366,
+      "builtYM": "1994-12",
+      "builtYear": 1994,
+      "builtText": "94년 12월 (33년차)"
     },
     {
       "id": "seoul-삼성동-삼성동힐스테이트2단지",
@@ -12637,6 +13291,27 @@
       "builtText": "96년 08월 (31년차)"
     },
     {
+      "id": "gyeonggi-석수동-힐스테이트석수",
+      "name": "힐스테이트석수",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 33,
+      "kbComplexId": 30123,
+      "marketCapTrillion": 0.1828,
+      "pricePerPyeongMan": 2348,
+      "households": 239,
+      "builtYM": "2015-07",
+      "builtYear": 2015,
+      "builtText": "15년 07월 (12년차)"
+    },
+    {
       "id": "seoul-가락동-가락우성(1차)",
       "name": "가락우성(1차)",
       "region": "서울",
@@ -12868,6 +13543,27 @@
       "builtText": "21년 07월 (6년차)"
     },
     {
+      "id": "gyeonggi-박달동-벽산",
+      "name": "벽산",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 34,
+      "kbComplexId": 4034,
+      "marketCapTrillion": 0.175,
+      "pricePerPyeongMan": 1559,
+      "households": 386,
+      "builtYM": "1996-12",
+      "builtYear": 1996,
+      "builtText": "96년 12월 (31년차)"
+    },
+    {
       "id": "seoul-성산동-성산월드타운대림",
       "name": "성산월드타운대림",
       "region": "서울",
@@ -12992,6 +13688,27 @@
       "builtYM": "2018-02",
       "builtYear": 2018,
       "builtText": "18년 02월 (9년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-관악역이안",
+      "name": "관악역이안",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 35,
+      "kbComplexId": 22298,
+      "marketCapTrillion": 0.1679,
+      "pricePerPyeongMan": 1739,
+      "households": 271,
+      "builtYM": "2010-04",
+      "builtYear": 2010,
+      "builtText": "10년 04월 (17년차)"
     },
     {
       "id": "seoul-응봉동-금호현대",
@@ -13624,6 +14341,27 @@
       "builtText": "19년 01월 (8년차)"
     },
     {
+      "id": "gyeonggi-석수동-안양석수하우스토리",
+      "name": "안양석수하우스토리",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 36,
+      "kbComplexId": 22302,
+      "marketCapTrillion": 0.1676,
+      "pricePerPyeongMan": 2004,
+      "households": 274,
+      "builtYM": "2011-10",
+      "builtYear": 2011,
+      "builtText": "11년 10월 (16년차)"
+    },
+    {
       "id": "seoul-자양동-자양10차현대홈타운",
       "name": "자양10차현대홈타운",
       "region": "서울",
@@ -13853,6 +14591,27 @@
       "builtYM": "1998-07",
       "builtYear": 1998,
       "builtText": "98년 07월 (29년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-석수2차e편한세상",
+      "name": "석수2차e편한세상",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 37,
+      "kbComplexId": 13941,
+      "marketCapTrillion": 0.1665,
+      "pricePerPyeongMan": 2315,
+      "households": 231,
+      "builtYM": "2006-01",
+      "builtYear": 2006,
+      "builtText": "06년 01월 (21년차)"
     },
     {
       "id": "seoul-여의도동-수정",
@@ -14147,6 +14906,27 @@
       "builtYM": "2022-07",
       "builtYear": 2022,
       "builtText": "22년 07월 (5년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-벽산",
+      "name": "벽산",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 38,
+      "kbComplexId": 4027,
+      "marketCapTrillion": 0.1663,
+      "pricePerPyeongMan": 1832,
+      "households": 275,
+      "builtYM": "1985-09",
+      "builtYear": 1985,
+      "builtText": "85년 09월 (42년차)"
     },
     {
       "id": "seoul-신대방동-보라매롯데낙천대",
@@ -14674,6 +15454,27 @@
       "builtText": "86년 12월 (41년차)"
     },
     {
+      "id": "gyeonggi-안양동-수리산현대홈타운",
+      "name": "수리산현대홈타운",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 39,
+      "kbComplexId": 36259,
+      "marketCapTrillion": 0.1654,
+      "pricePerPyeongMan": 1321,
+      "households": 356,
+      "builtYM": "2001-11",
+      "builtYear": 2001,
+      "builtText": "01년 11월 (26년차)"
+    },
+    {
       "id": "seoul-신길동-신길파크자이",
       "name": "신길파크자이",
       "region": "서울",
@@ -15008,6 +15809,27 @@
       "builtYM": "1977-06",
       "builtYear": 1977,
       "builtText": "77년 06월 (50년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-진흥(5차)",
+      "name": "진흥(5차)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 40,
+      "kbComplexId": 4024,
+      "marketCapTrillion": 0.1529,
+      "pricePerPyeongMan": 1419,
+      "households": 432,
+      "builtYM": "1987-08",
+      "builtYear": 1987,
+      "builtText": "87년 08월 (40년차)"
     },
     {
       "id": "seoul-청담동-청담자이",
@@ -15430,6 +16252,27 @@
       "builtText": "91년 12월 (36년차)"
     },
     {
+      "id": "gyeonggi-안양동-안양광신프로그레스리버뷰",
+      "name": "안양광신프로그레스리버뷰",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 41,
+      "kbComplexId": 323266,
+      "marketCapTrillion": 0.1509,
+      "pricePerPyeongMan": 2512,
+      "households": 230,
+      "builtYM": "2021-06",
+      "builtYear": 2021,
+      "builtText": "21년 06월 (6년차)"
+    },
+    {
       "id": "seoul-문배동-용산씨제이나인파크",
       "name": "용산씨제이나인파크",
       "region": "서울",
@@ -15701,6 +16544,27 @@
       "builtYM": "1995-05",
       "builtYear": 1995,
       "builtText": "95년 05월 (32년차)"
+    },
+    {
+      "id": "gyeonggi-석수동-안양석수대주파크빌",
+      "name": "안양석수대주파크빌",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 석수동",
+      "dong": "석수동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 42,
+      "kbComplexId": 13387,
+      "marketCapTrillion": 0.1481,
+      "pricePerPyeongMan": 2038,
+      "households": 256,
+      "builtYM": "2005-04",
+      "builtYear": 2005,
+      "builtText": "05년 04월 (22년차)"
     },
     {
       "id": "gyeonggi-하대원동-엘리프하이디움2단지",
@@ -16207,6 +17071,27 @@
       "builtText": "94년 04월 (33년차)"
     },
     {
+      "id": "gyeonggi-안양동-효성(화운트빌)",
+      "name": "효성(화운트빌)",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 43,
+      "kbComplexId": 12259,
+      "marketCapTrillion": 0.1412,
+      "pricePerPyeongMan": 1124,
+      "households": 350,
+      "builtYM": "2003-07",
+      "builtYear": 2003,
+      "builtText": "03년 07월 (24년차)"
+    },
+    {
       "id": "gyeonggi-감이동-감일수자인",
       "name": "감일수자인",
       "region": "경기",
@@ -16480,6 +17365,27 @@
       "builtText": "95년 04월 (32년차)"
     },
     {
+      "id": "gyeonggi-안양동-주공",
+      "name": "주공",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 44,
+      "kbComplexId": 4015,
+      "marketCapTrillion": 0.1409,
+      "pricePerPyeongMan": 1540,
+      "households": 339,
+      "builtYM": "2000-06",
+      "builtYear": 2000,
+      "builtText": "00년 06월 (27년차)"
+    },
+    {
       "id": "seoul-청암동-천년명가청암자이",
       "name": "천년명가청암자이",
       "region": "서울",
@@ -16646,6 +17552,27 @@
       "builtYM": "2012-05",
       "builtYear": 2012,
       "builtText": "12년 05월 (15년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-냉천마을현대",
+      "name": "냉천마을현대",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 45,
+      "kbComplexId": 4003,
+      "marketCapTrillion": 0.139,
+      "pricePerPyeongMan": 1369,
+      "households": 314,
+      "builtYM": "1997-06",
+      "builtYear": 1997,
+      "builtText": "97년 06월 (30년차)"
     },
     {
       "id": "seoul-명일동-명일삼환",
@@ -16940,6 +17867,27 @@
       "builtYM": "2001-12",
       "builtYear": 2001,
       "builtText": "01년 12월 (26년차)"
+    },
+    {
+      "id": "gyeonggi-박달동-극동",
+      "name": "극동",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 46,
+      "kbComplexId": 4033,
+      "marketCapTrillion": 0.1297,
+      "pricePerPyeongMan": 1252,
+      "households": 312,
+      "builtYM": "1991-12",
+      "builtYear": 1991,
+      "builtText": "91년 12월 (36년차)"
     },
     {
       "id": "seoul-당산동4가-당산현대(3차)",
@@ -17551,6 +18499,27 @@
       "builtText": "19년 02월 (8년차)"
     },
     {
+      "id": "gyeonggi-안양동-안양동경남아너스빌",
+      "name": "안양동경남아너스빌",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 47,
+      "kbComplexId": 4002,
+      "marketCapTrillion": 0.1259,
+      "pricePerPyeongMan": 1727,
+      "households": 248,
+      "builtYM": "2001-11",
+      "builtYear": 2001,
+      "builtText": "01년 11월 (26년차)"
+    },
+    {
       "id": "gyeonggi-하대원동-주원파크빌",
       "name": "주원파크빌",
       "region": "경기",
@@ -17843,6 +18812,27 @@
       "builtYM": "2006-03",
       "builtYear": 2006,
       "builtText": "06년 03월 (21년차)"
+    },
+    {
+      "id": "gyeonggi-박달동-신안",
+      "name": "신안",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 박달동",
+      "dong": "박달동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 48,
+      "kbComplexId": 4037,
+      "marketCapTrillion": 0.1206,
+      "pricePerPyeongMan": 1295,
+      "households": 294,
+      "builtYM": "1991-09",
+      "builtYear": 1991,
+      "builtText": "91년 09월 (36년차)"
     },
     {
       "id": "gyeonggi-하대원동-엘리프하이디움1단지",
@@ -18158,6 +19148,27 @@
       "builtYM": "1983-01",
       "builtYear": 1983,
       "builtText": "83년 01월 (44년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-안양명학역유보라더스마트",
+      "name": "안양명학역유보라더스마트",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 49,
+      "kbComplexId": 37529,
+      "marketCapTrillion": 0.115,
+      "pricePerPyeongMan": 2300,
+      "households": 200,
+      "builtYM": "2020-02",
+      "builtYear": 2020,
+      "builtText": "20년 02월 (7년차)"
     },
     {
       "id": "seoul-역삼동-역삼푸르지오",
@@ -18641,6 +19652,27 @@
       "builtYM": "2015-03",
       "builtYear": 2015,
       "builtText": "15년 03월 (12년차)"
+    },
+    {
+      "id": "gyeonggi-안양동-정우",
+      "name": "정우",
+      "region": "경기",
+      "district": "안양시 만안구",
+      "location": "안양시 만안구 안양동",
+      "dong": "안양동",
+      "sources": [
+        "district_top50"
+      ],
+      "lead50Rank": null,
+      "gyeonggiTopRank": null,
+      "districtRank": 50,
+      "kbComplexId": 3999,
+      "marketCapTrillion": 0.1102,
+      "pricePerPyeongMan": 1205,
+      "households": 351,
+      "builtYM": "1985-12",
+      "builtYear": 1985,
+      "builtText": "85년 12월 (42년차)"
     },
     {
       "id": "gyeonggi-동천동-한빛마을래미안이스트팰리스4단지",
