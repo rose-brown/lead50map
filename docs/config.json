@@ -1,0 +1,12 @@
+{
+  "kakaoJsKey": "05ab2e3a1a7f7121af1dfcacdeeeacae",
+  "hasKakaoJsKey": true,
+  "hasRestKey": false,
+  "destination": {
+    "name": "테헤란로 501",
+    "address": "서울 강남구 테헤란로 501",
+    "lat": 37.5082,
+    "lng": 127.0604,
+    "verified": false
+  }
+}

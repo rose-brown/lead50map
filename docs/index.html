@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>테헤란로 501 출근권 · KB 선도아파트 맵 (v0.1)</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app" class="app-shell mobile-view-map">
+      <header class="top-header">
+        <div class="header-left">
+          <div class="brand-mark" aria-hidden="true">KB</div>
+          <div>
+            <h1 class="app-title">테헤란로 501 출근권 · KB 선도아파트 맵 <span class="ver-tag">v0.1</span></h1>
+            <p class="app-subtitle">KB선도아파트50 + 경기 TOP + 서울·경기 시/구 TOP50 통합 필터 맵</p>
+          </div>
+        </div>
+        <div class="header-right">
+          <span id="pill-asof" class="status-pill">기준 2026-10</span>
+          <span id="pill-filtered" class="status-pill status-pill-accent">표시 0 / 0</span>
+          <span id="pill-enriched" class="status-pill">카카오 좌표·통근 실측 0 / 0</span>
+          <button id="btn-open-guide" type="button" class="btn-outline">설정 · 데이터 가이드</button>
+        </div>
+      </header>
+
+      <nav id="mobile-tabs" class="mobile-tabs" aria-label="모바일 화면 전환">
+        <button type="button" class="mobile-tab active" data-mobile-view="map">🗺 지도</button>
+        <button type="button" class="mobile-tab" data-mobile-view="list">
+          📋 목록 <span id="mobile-list-count" class="mobile-count">0</span>
+        </button>
+        <button type="button" class="mobile-tab" data-mobile-view="filter">🎛 필터</button>
+      </nav>
+
+      <main class="main-layout">
+        <aside class="sidebar" aria-label="필터 및 단지 목록">
+          <div class="filter-scroll">
+            <!-- 목록, 지역 및 시/구 필터 -->
+            <section class="filter-section">
+              <div class="section-head">
+                <h2>목록 · 지역 · 시/구</h2>
+                <button id="btn-reset-filters" type="button" class="text-btn">필터 초기화</button>
+              </div>
+              <div class="chip-row compact" role="group" aria-label="목록 선택">
+                <button type="button" class="chip active" data-filter-source="all">전체</button>
+                <button type="button" class="chip" data-filter-source="kb_lead50">KB선도50</button>
+                <button type="button" class="chip" data-filter-source="gyeonggi_top50">경기TOP</button>
+                <button type="button" class="chip" data-filter-source="district_top50">시/구 TOP50</button>
+              </div>
+              <div class="chip-row compact" role="group" aria-label="지역 선택" style="margin-top: 7px;">
+                <button type="button" class="chip active" data-filter-region="all">전체 지역</button>
+                <button type="button" class="chip" data-filter-region="서울">서울</button>
+                <button type="button" class="chip" data-filter-region="경기">경기</button>
+              </div>
+              <div class="district-head">
+                <span class="sub-label" style="margin: 0;">시/구 다중 선택</span>
+                <button id="btn-clear-districts" type="button" class="text-btn">시/구 전체</button>
+              </div>
+              <div id="district-chips" class="district-scroll" role="group" aria-label="시/구 선택"></div>
+            </section>
+
+            <!-- 대중교통 통근시간 -->
+            <section class="filter-section">
+              <div class="section-head">
+                <h2>대중교통 통근 (테헤란로 501)</h2>
+                <span id="commute-slider-label" class="value-badge">60분 이내</span>
+              </div>
+              <input
+                id="input-max-commute"
+                type="range"
+                min="15"
+                max="90"
+                step="5"
+                value="60"
+                class="range-slider"
+              />
+              <div class="range-ticks">
+                <span>15분</span>
+                <span>45분</span>
+                <span>60분</span>
+                <span>90분</span>
+              </div>
+              <div class="toggle-stack">
+                <label class="checkbox-label">
+                  <input id="chk-over-60" type="checkbox" />
+                  <span>60분 초과도 표시 (슬라이더 상한 해제)</span>
+                </label>
+                <label class="checkbox-label">
+                  <input id="chk-include-unmeasured" type="checkbox" checked />
+                  <span>통근 미측정 단지 포함</span>
+                </label>
+              </div>
+              <div class="sub-label">환승 횟수</div>
+              <div class="chip-row compact" role="group" aria-label="환승 횟수">
+                <button type="button" class="chip active" data-filter-transfer="all">전체</button>
+                <button type="button" class="chip" data-filter-transfer="0">직통(0회)</button>
+                <button type="button" class="chip" data-filter-transfer="1">1회 이하</button>
+                <button type="button" class="chip" data-filter-transfer="2">2회 이하</button>
+              </div>
+            </section>
+
+            <!-- 기본 예산대 & 기준 평형 -->
+            <section class="filter-section">
+              <div class="section-head">
+                <h2>기본 예산대 · 기준 평형</h2>
+                <span id="pyeong-badge" class="value-badge">34평 기준</span>
+              </div>
+              <div class="pyeong-row">
+                <div class="chip-row compact" role="group" aria-label="기준 평형 프리셋">
+                  <button type="button" class="chip" data-pyeong="18">18평</button>
+                  <button type="button" class="chip" data-pyeong="24">24평</button>
+                  <button type="button" class="chip active" data-pyeong="34">34평</button>
+                  <button type="button" class="chip" data-pyeong="44">44평</button>
+                </div>
+                <label class="inline-input-wrap" title="직접 평수 입력">
+                  <input id="input-pyeong" type="number" min="10" max="100" step="1" value="34" />
+                  <span>평</span>
+                </label>
+              </div>
+              <p class="helper-note">
+                추정 매매가 = 3.3㎡당 KB시세 × 기준 평형 <span class="muted">(v0.2에서 실제 평형별 시세 연동 예정)</span>
+              </p>
+              <div id="budget-chips" class="budget-grid" role="group" aria-label="기본 예산대 다중 선택">
+                <button type="button" class="chip budget-chip" data-budget="under4">
+                  <span>4억 이하</span><small class="chip-count" data-budget-count="under4">0</small>
+                </button>
+                <button type="button" class="chip budget-chip" data-budget="4to6">
+                  <span>4~6억</span><small class="chip-count" data-budget-count="4to6">0</small>
+                </button>
+                <button type="button" class="chip budget-chip" data-budget="6to8">
+                  <span>6~8억</span><small class="chip-count" data-budget-count="6to8">0</small>
+                </button>
+                <button type="button" class="chip budget-chip" data-budget="8to12">
+                  <span>8~12억</span><small class="chip-count" data-budget-count="8to12">0</small>
+                </button>
+                <button type="button" class="chip budget-chip" data-budget="over12">
+                  <span>12억 이상</span><small class="chip-count" data-budget-count="over12">0</small>
+                </button>
+              </div>
+            </section>
+
+            <!-- 세부 스펙 필터 -->
+            <section class="filter-section">
+              <details id="spec-details">
+                <summary class="section-summary">세부 스펙 (평당가 · 세대수 · 준공년월)</summary>
+                <div class="spec-body">
+                  <div class="field-group">
+                    <span class="sub-label">3.3㎡당 KB시세 (만원)</span>
+                    <div class="dual-input">
+                      <input id="input-price-min" type="number" min="0" step="500" placeholder="최소 (예: 3000)" />
+                      <span class="dash">~</span>
+                      <input id="input-price-max" type="number" min="0" step="500" placeholder="최대 (예: 9000)" />
+                    </div>
+                  </div>
+
+                  <div class="field-group">
+                    <span class="sub-label">세대수</span>
+                    <div class="chip-row compact" role="group" aria-label="세대수 프리셋">
+                      <button type="button" class="chip active" data-households="">전체</button>
+                      <button type="button" class="chip" data-households="1000">1,000+</button>
+                      <button type="button" class="chip" data-households="2000">2,000+</button>
+                      <button type="button" class="chip" data-households="3000">3,000+</button>
+                      <button type="button" class="chip" data-households="5000">5,000+</button>
+                    </div>
+                    <label class="inline-input-wrap full-width" style="margin-top: 6px;">
+                      <span>최소</span>
+                      <input id="input-min-households" type="number" min="0" step="100" placeholder="예: 1500" />
+                      <span>세대 이상</span>
+                    </label>
+                  </div>
+
+                  <div class="field-group">
+                    <span class="sub-label">준공년월 (2026년 기준 연식)</span>
+                    <div class="chip-row compact" role="group" aria-label="준공 연식 프리셋">
+                      <button type="button" class="chip active" data-age-preset="all">전체</button>
+                      <button type="button" class="chip" data-age-preset="5y">5년 이내</button>
+                      <button type="button" class="chip" data-age-preset="10y">10년 이내</button>
+                      <button type="button" class="chip" data-age-preset="20y">20년 이내</button>
+                      <button type="button" class="chip" data-age-preset="over30y">30년 초과</button>
+                    </div>
+                    <div class="dual-input" style="margin-top: 6px;">
+                      <input id="input-year-min" type="number" min="1960" max="2030" placeholder="최소 연도 (1990)" />
+                      <span class="dash">~</span>
+                      <input id="input-year-max" type="number" min="1960" max="2030" placeholder="최대 연도 (2026)" />
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </section>
+            <div class="mobile-filter-footer">
+              <button id="btn-mobile-apply-filters" type="button" class="btn-mobile-apply">
+                적용하고 지도 보기 (0개)
+              </button>
+            </div>
+          </div>
+
+          <!-- 검색 & 정렬 + 단지 리스트 -->
+          <div class="list-controls">
+            <input
+              id="input-search"
+              type="search"
+              placeholder="단지명, 시/구, 동 검색 (예: 동안구, 대치, 래미안)"
+              aria-label="단지 검색"
+            />
+            <select id="select-sort" aria-label="정렬 기준">
+              <option value="commute">통근시간순</option>
+              <option value="estPriceAsc">추정가 낮은순</option>
+              <option value="pyeongPriceAsc">평당가 낮은순</option>
+              <option value="newest">신축순</option>
+              <option value="householdsDesc">세대수순</option>
+              <option value="marketCapDesc">시세총액순</option>
+            </select>
+          </div>
+
+          <div id="apt-list" class="apt-list" role="list"></div>
+        </aside>
+
+        <section class="map-pane" aria-label="지도 및 상세 정보">
+          <div id="kakao-map" class="kakao-map"></div>
+
+          <!-- 카카오 키 유무/실측/클러스터 힌트 배너 -->
+          <div id="map-banner" class="map-banner hidden"></div>
+          <div id="map-zoom-hint" class="map-zoom-hint hidden">
+            지도를 확대하거나 시/구·예산 필터로 좁히면 단지별 가격·통근 말풍선이 표시됩니다.
+          </div>
+
+          <!-- 카카오맵 활성화 시 컨트롤 및 범례 -->
+          <div id="map-controls" class="map-controls hidden">
+            <button id="btn-center-dest" type="button" class="map-ctrl-btn">테헤란로 501 중심으로</button>
+            <button id="btn-fit-bounds" type="button" class="map-ctrl-btn">결과 전체 보기</button>
+          </div>
+
+          <div id="map-legend" class="map-legend hidden">
+            <span class="legend-item"><i class="dot dot-dest"></i>테헤란로 501</span>
+            <span class="legend-item"><i class="dot dot-fast"></i>≤30분</span>
+            <span class="legend-item"><i class="dot dot-mid"></i>31~45분</span>
+            <span class="legend-item"><i class="dot dot-slow"></i>46~60분</span>
+            <span class="legend-item"><i class="dot dot-over"></i>60분 초과</span>
+            <span class="legend-item"><i class="dot dot-unverified"></i>좌표·미측정</span>
+          </div>
+
+          <!-- 카카오 JS 키 미설정 또는 SDK 오류 시 대체 요약 뷰 -->
+          <div id="fallback-canvas" class="fallback-canvas hidden">
+            <div class="fallback-card setup-hero">
+              <div class="setup-badge">API 키 연동 대기 중 · 실제 KB 단지 데이터 로드 완료</div>
+              <h2 id="fallback-title">카카오맵 API 키를 넣으면 지도가 바로 표시됩니다</h2>
+              <p id="fallback-desc" class="fallback-desc">
+                현재 좌측 필터와 실제 KB 데이터는 모두 즉시 동작 중입니다.
+                아래 경로의 <code>.env</code> 파일에 키를 넣고 <code>enrich_kakao.py</code>를 실행하면 지도 핀과 테헤란로 501 실측 대중교통 시간이 채워집니다.
+              </p>
+              <div class="env-path-box">
+                <span>.env 파일 경로</span>
+                <code id="fallback-env-path">/Users/hkeum/.gemini/antigravity/scratch/apt-commute-map/.env</code>
+              </div>
+              <div class="checklist-grid">
+                <div class="check-item">
+                  <strong>1. Kakao Developers 설정</strong>
+                  <span>[제품 설정] → [카카오맵] 사용 설정 ON / [앱 설정] → [앱] → [플랫폼 키] → [JavaScript 키] → JavaScript SDK 도메인에 <code>http://localhost:5173</code> 및 <code>https://rose-brown.github.io</code> 등록</span>
+                </div>
+                <div class="check-item">
+                  <strong>2. 좌표·통근시간 1회 실측</strong>
+                  <code>python3 scripts/enrich_kakao.py</code>
+                </div>
+              </div>
+            </div>
+
+            <div class="fallback-card summary-board">
+              <div class="summary-head">
+                <h3>현재 필터 조건 실시간 분포</h3>
+                <span id="summary-total-label" class="muted">총 0개 단지</span>
+              </div>
+              <div class="summary-cols">
+                <div>
+                  <h4>지역 구성</h4>
+                  <div id="summary-regions" class="bar-list"></div>
+                </div>
+                <div>
+                  <h4 id="summary-budget-title">예산대 분포 (34평 기준 추정가)</h4>
+                  <div id="summary-budgets" class="bar-list"></div>
+                </div>
+              </div>
+              <div class="summary-preview-wrap">
+                <h4>조건 일치 상위 단지 미리보기 (클릭 시 상세 보기)</h4>
+                <div id="summary-preview-grid" class="preview-grid"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 선택 단지 상세 카드 -->
+          <article id="detail-panel" class="detail-panel hidden" aria-live="polite">
+            <div class="detail-head">
+              <div>
+                <div id="detail-badges" class="card-badges"></div>
+                <h3 id="detail-name">단지명</h3>
+                <p id="detail-location" class="detail-location">위치</p>
+              </div>
+              <button id="btn-close-detail" type="button" class="icon-close" aria-label="상세 닫기">✕</button>
+            </div>
+
+            <div id="detail-commute-box" class="commute-box"></div>
+
+            <dl class="detail-grid">
+              <div>
+                <dt id="detail-est-label">추정 매매가 (34평)</dt>
+                <dd id="detail-est-price">-</dd>
+              </div>
+              <div>
+                <dt>3.3㎡당 KB시세</dt>
+                <dd id="detail-pyeong-price">-</dd>
+              </div>
+              <div>
+                <dt>시세총액</dt>
+                <dd id="detail-market-cap">-</dd>
+              </div>
+              <div>
+                <dt>세대수</dt>
+                <dd id="detail-households">-</dd>
+              </div>
+              <div>
+                <dt>준공년월</dt>
+                <dd id="detail-built">-</dd>
+              </div>
+              <div>
+                <dt>KB 랭킹 · 거리</dt>
+                <dd id="detail-ranks">-</dd>
+              </div>
+            </dl>
+
+            <div class="detail-links">
+              <a id="link-kakao-route" href="#" target="_blank" rel="noopener noreferrer" class="btn-link primary">
+                카카오맵 대중교통 길찾기
+              </a>
+              <a id="link-naver-search" href="#" target="_blank" rel="noopener noreferrer" class="btn-link">
+                네이버지도 검색
+              </a>
+              <a
+                id="link-kb-detail"
+                href="https://data.kbland.kr/kbstats/lead50"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-link"
+              >
+                KB 단지 상세 보기
+              </a>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <!-- 설정 · 데이터 가이드 모달 -->
+    <div id="guide-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-card">
+        <div class="modal-head">
+          <h2 id="modal-title">설정 · 데이터 연동 가이드</h2>
+          <button id="btn-close-modal" type="button" class="icon-close" aria-label="모달 닫기">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-status-grid">
+            <div class="modal-stat">
+              <span>카카오 JS 키 (지도)</span>
+              <strong id="modal-js-status">확인 중</strong>
+            </div>
+            <div class="modal-stat">
+              <span>카카오 REST 키 (수집)</span>
+              <strong id="modal-rest-status">확인 중</strong>
+            </div>
+            <div class="modal-stat">
+              <span>좌표·통근 실측 완료</span>
+              <strong id="modal-enriched-status">0 / 0</strong>
+            </div>
+          </div>
+
+          <h3>1. .env 파일 생성 및 키 입력</h3>
+          <p class="modal-p">아래 경로의 <code>.env</code> 파일에 Kakao Developers에서 발급한 키를 입력하세요.</p>
+          <pre class="code-block">cp .env.example .env
+# .env 파일 경로:
+# <span id="modal-env-path">/Users/hkeum/.gemini/antigravity/scratch/apt-commute-map/.env</span>
+# VITE_KAKAO_JS_KEY=자바스크립트_키
+# KAKAO_REST_API_KEY=REST_API_키</pre>
+
+          <h3>2. Kakao Developers 필수 체크</h3>
+          <ul class="modal-list">
+            <li>[제품 설정] → [카카오맵] → <strong>사용 설정 ON</strong></li>
+            <li>[앱 설정] → [앱] → [플랫폼 키] → [JavaScript 키] → <strong>JavaScript SDK 도메인</strong>에 <code>http://localhost:5173</code> 및 <code>https://rose-brown.github.io</code> 등록</li>
+          </ul>
+
+          <h3>3. 다른 시/구 추가 &amp; 1회 캐시 실측</h3>
+          <p class="modal-p">
+            이미 측정된 단지는 <code>data/kakao_transit_cache.json</code>에 영구 저장되어 재호출되지 않습니다.
+          </p>
+          <pre class="code-block">python3 scripts/fetch_kb_regions.py --regions "서울 양천구,경기 의왕시"
+python3 scripts/enrich_kakao.py</pre>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
