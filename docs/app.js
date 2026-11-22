@@ -585,22 +585,39 @@ function clearMapOverlays() {
   state.kakaoOverlays = [];
 }
 
+function getPinRankInfo(apt) {
+  if (apt.districtRank != null) {
+    return { label: `#${apt.districtRank}`, isTop3: apt.districtRank <= 3 };
+  }
+  if (apt.lead50Rank != null) {
+    return { label: `선도#${apt.lead50Rank}`, isTop3: apt.lead50Rank <= 3 };
+  }
+  if (apt.gyeonggiTopRank != null) {
+    return { label: `경기#${apt.gyeonggiTopRank}`, isTop3: apt.gyeonggiTopRank <= 3 };
+  }
+  return null;
+}
+
 function createPillOverlay(apt) {
   const pyeong = state.filters.pyeong;
   const tier = getCommuteTier(apt);
   const estEok = formatManToEok(estimatePriceMan(apt, pyeong));
+  const rank = getPinRankInfo(apt);
   const el = document.createElement('button');
   el.type = 'button';
   el.className = `kakao-pill ${tier.cls}${apt.id === state.selectedId ? ' selected' : ''}`;
+  const rankHtml = rank
+    ? `<span class="kakao-rank${rank.isTop3 ? ' top3' : ''}">${escapeHtml(rank.label)}</span>`
+    : '';
   const timeLabel = apt.commute?.minutes != null ? `${apt.commute.minutes}분` : '미측정';
-  el.innerHTML = `<span>${escapeHtml(apt.name)}</span><span>${escapeHtml(timeLabel)}</span><span>${escapeHtml(estEok)}</span>`;
+  el.innerHTML = `${rankHtml}<span>${escapeHtml(apt.name)}</span><span>${escapeHtml(timeLabel)}</span><span>${escapeHtml(estEok)}</span>`;
   el.addEventListener('click', () => selectApartment(apt.id, false));
 
   const overlay = new window.kakao.maps.CustomOverlay({
     position: new window.kakao.maps.LatLng(apt.lat, apt.lng),
     content: el,
     yAnchor: 1,
-    zIndex: apt.id === state.selectedId ? 50 : 10,
+    zIndex: apt.id === state.selectedId ? 60 : (rank?.isTop3 ? 25 : 10),
   });
   overlay.setMap(state.kakaoMap);
   state.kakaoOverlays.push(overlay);
@@ -620,10 +637,15 @@ function renderVisibleMapMarkers() {
 
   if (useCluster) {
     zoomHint?.classList.remove('hidden');
+    const pyeong = state.filters.pyeong;
     const markers = withCoords.map((apt) => {
+      const rank = getPinRankInfo(apt);
+      const timeLabel = apt.commute?.minutes != null ? `${apt.commute.minutes}분` : '미측정';
+      const estEok = formatManToEok(estimatePriceMan(apt, pyeong));
+      const rankPrefix = rank ? `${rank.label} ` : '';
       const marker = new window.kakao.maps.Marker({
         position: new window.kakao.maps.LatLng(apt.lat, apt.lng),
-        title: apt.name,
+        title: `${rankPrefix}${apt.name} (${timeLabel}, ${estEok})`,
       });
       window.kakao.maps.event.addListener(marker, 'click', () => selectApartment(apt.id, false));
       return marker;
