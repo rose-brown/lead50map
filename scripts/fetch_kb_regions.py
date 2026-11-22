@@ -6,6 +6,7 @@ import argparse
 import json
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -52,11 +53,23 @@ KB_HEADERS = {
 }
 
 
-def kb_get_json(url: str, params: Optional[Dict[str, str]] = None, timeout: int = 20) -> Dict[str, Any]:
+def kb_get_json(url: str, params: Optional[Dict[str, str]] = None, timeout: int = 30) -> Dict[str, Any]:
     full_url = f"{url}?{urllib.parse.urlencode(params)}" if params else url
     req = urllib.request.Request(full_url, headers=KB_HEADERS, method="GET")
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    last_err: Optional[Exception] = None
+    backoffs = (2, 4, 8)
+    for attempt in range(1, 5):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            last_err = exc
+            if attempt <= len(backoffs):
+                time.sleep(backoffs[attempt - 1])
+    assert last_err is not None
+    raise last_err
 
 
 def fetch_sigungu_catalog() -> Dict[Tuple[str, str], Dict[str, Any]]:

@@ -383,8 +383,8 @@ def parse_publictraffic_response(payload: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-def kakao_get_json(url: str, params: Dict[str, Any], rest_api_key: str, timeout: int = 15) -> Dict[str, Any]:
-    """Execute GET request against Kakao REST API and decode JSON."""
+def kakao_get_json(url: str, params: Dict[str, Any], rest_api_key: str, timeout: int = 20) -> Dict[str, Any]:
+    """Execute GET request against Kakao REST API with retries on transient socket/TLS timeouts."""
     query = urllib.parse.urlencode(params)
     full_url = f"{url}?{query}"
     req = urllib.request.Request(
@@ -395,9 +395,21 @@ def kakao_get_json(url: str, params: Dict[str, Any], rest_api_key: str, timeout:
         },
         method="GET",
     )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        raw = resp.read().decode("utf-8")
-        return json.loads(raw)
+    last_err: Optional[Exception] = None
+    backoffs = (2, 4, 8, 16)
+    for attempt in range(1, 6):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                raw = resp.read().decode("utf-8")
+                return json.loads(raw)
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            last_err = exc
+            if attempt <= len(backoffs):
+                time.sleep(backoffs[attempt - 1])
+    assert last_err is not None
+    raise last_err
 
 
 def geocode_destination(address: str, rest_api_key: str) -> Tuple[float, float]:
@@ -564,6 +576,7 @@ def run_transit_enrichment(
 
     transit_by_id = cache.setdefault("transitByComplexKey", {})
     transit_by_coord = cache.setdefault("transitByCoordKey", {})
+    consecutive_net_errors = 0
 
     for idx, (dist_km, apt) in enumerate(api_queue, start=1):
         if stats["api_calls"] >= max_transit or used_today >= daily_transit_cap:
@@ -593,6 +606,7 @@ def run_transit_enrichment(
                 },
                 rest_key,
             )
+            consecutive_net_errors = 0
             stats["api_calls"] += 1
             used_today += 1
             daily_calls[today] = used_today
@@ -605,7 +619,16 @@ def run_transit_enrichment(
                 f"{apt['name']} ({apt['location']}, {dist_km}km) -> "
                 f"{parsed['minutes']}분, 환승 {parsed['transfers']}회 | {parsed['summary']}"
             )
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, TimeoutError, OSError) as net_err:
+            stats["errors"] += 1
+            consecutive_net_errors += 1
+            print(f"  [네트워크 경고] {apt['name']}: 일시적 통신 오류로 건너뜀 ({net_err})", file=sys.stderr)
+            if consecutive_net_errors >= 5:
+                raise RuntimeError(f"연속 네트워크 오류 5회로 대중교통 수집을 안전 중단합니다: {net_err}") from net_err
         except ValueError as ve:
+            consecutive_net_errors = 0
             stats["errors"] += 1
             print(f"  [오류] {apt['name']}: 대중교통 경로 파싱 실패 ({ve})", file=sys.stderr)
 
@@ -641,6 +664,7 @@ def main() -> int:
     parser.add_argument("--max-transit", type=int, default=850, help="Max new transit API calls in this run (default: 850).")
     parser.add_argument("--daily-transit-cap", type=int, default=950, help="Hard daily cap across runs (default: 950 < 1,000 free quota).")
     parser.add_argument("--limit", type=int, default=0, help="Process at most N uncached complexes per phase (0 = all).")
+    parser.add_argument("--region", choices=["", "서울", "경기"], default="", help="Restrict enrichment to '서울' or '경기'.")
     parser.add_argument("--coord-sleep", type=float, default=0.08, help="Delay between Kakao Local calls (default: 0.08s).")
     parser.add_argument("--sleep", type=float, default=0.15, help="Delay between Kakao Transit calls (default: 0.15s).")
     args = parser.parse_args()
@@ -677,9 +701,11 @@ def main() -> int:
         if th:
             cache_transit_hits += 1
 
+    scoped_apartments = [apt for apt in apartments if not args.region or apt.get("region") == args.region]
+
     coord_targets = [
         apt
-        for apt in apartments
+        for apt in scoped_apartments
         if args.force or not apt.get("coordsVerified") or apt.get("lat") is None or apt.get("lng") is None
     ]
     if args.limit > 0:
@@ -729,8 +755,20 @@ def main() -> int:
         if coord_targets:
             print(f"[Phase 1] 좌표 미등록 {len(coord_targets)}개 조회 시작 (일 100,000건 무료)...")
             coords_map = cache.setdefault("coordsByComplexKey", {})
+            consecutive_coord_net_errors = 0
             for idx, apt in enumerate(coord_targets, start=1):
-                lat, lng, label = geocode_complex(apt, rest_key, sleep_sec=args.coord_sleep)
+                try:
+                    lat, lng, label = geocode_complex(apt, rest_key, sleep_sec=args.coord_sleep)
+                    consecutive_coord_net_errors = 0
+                except urllib.error.HTTPError:
+                    raise
+                except (urllib.error.URLError, TimeoutError, OSError) as net_err:
+                    consecutive_coord_net_errors += 1
+                    print(f"  [좌표 네트워크 경고 {idx}/{len(coord_targets)}] {apt['name']}: 건너뜀 ({net_err})", file=sys.stderr)
+                    if consecutive_coord_net_errors >= 5:
+                        raise RuntimeError(f"연속 네트워크 오류 5회로 좌표 수집을 안전 중단합니다: {net_err}") from net_err
+                    continue
+
                 if lat is not None and lng is not None:
                     apt["lat"] = lat
                     apt["lng"] = lng
@@ -752,7 +790,7 @@ def main() -> int:
             print("[Phase 1] 모든 단지 좌표가 이미 캐시되어 있습니다 (0건 호출).")
 
         if not args.coords_only:
-            transit_subset = apartments[: args.limit] if args.limit > 0 else apartments
+            transit_subset = scoped_apartments[: args.limit] if args.limit > 0 else scoped_apartments
             print(
                 f"[Phase 2] 대중교통 실측 시작 (직선거리 {args.max_distance_km}km 이내, "
                 f"오늘 누적 {used_today}/{args.daily_transit_cap}건)..."

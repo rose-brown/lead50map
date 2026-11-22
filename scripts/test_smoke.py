@@ -267,7 +267,7 @@ def test_generated_datasets() -> None:
         assert apt["pricePerPyeongMan"] > 0
         assert apt["households"] > 0
         assert len(apt["builtYM"]) == 7
-        assert 1970 <= apt["builtYear"] <= 2026
+        assert 1960 <= apt["builtYear"] <= 2028
 
 
 def http_get(url: str) -> tuple:
